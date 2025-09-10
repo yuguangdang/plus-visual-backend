@@ -3,7 +3,6 @@ runtime: nodejs18
 build:
   commands:
     build:
-      - echo "Installing dependencies..."
       - npm install
 run:
   runtime-version: 18
@@ -16,5 +15,5 @@ run:
       value: "3001"
     - name: AWS_REGION
       value: "ap-southeast-2"
-    - name: AWS_PROFILE
-      value: "aiml_services"
+    - name: NODE_ENV
+      value: "production"
