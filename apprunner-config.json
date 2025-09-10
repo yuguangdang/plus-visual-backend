@@ -1,0 +1,20 @@
+{
+  "ServiceName": "plus-visual-backend",
+  "SourceConfiguration": {
+    "CodeRepository": {
+      "RepositoryUrl": "ssh://git@git.code.one/aiml/plus_visual_backend.git",
+      "SourceCodeVersion": {
+        "Type": "BRANCH",
+        "Value": "main"
+      },
+      "CodeConfiguration": {
+        "ConfigurationSource": "REPOSITORY"
+      }
+    },
+    "AutoDeploymentsEnabled": true
+  },
+  "InstanceConfiguration": {
+    "Cpu": "0.25 vCPU",
+    "Memory": "0.5 GB"
+  }
+}

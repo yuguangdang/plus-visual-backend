@@ -1,0 +1,2598 @@
+WEBVTT
+
+a6d1fa6d-5e0d-4611-bd2b-902e08904738-0
+00:00:02.640 --> 00:00:03.080
+Shall we?
+
+59c57198-3112-4d58-943f-f5e0ef3f0e71-0
+00:00:03.600 --> 00:00:06.360
+So today we'll focus on plus.
+
+fd6ff034-95ca-48b0-a53c-768410c3818c-0
+00:00:06.960 --> 00:00:10.560
+That's the bit we've not seen yet or the
+SLT has not seen yet.
+
+fc33826e-787a-4505-b469-615483928214-0
+00:00:10.960 --> 00:00:12.360
+Joel, are you smiling?
+
+a901821a-358c-4c96-a214-186bda1f1a5e-0
+00:00:12.360 --> 00:00:12.480
+Good.
+
+7eb88727-a5c8-453c-bd41-c4a51093be3a-0
+00:00:13.640 --> 00:00:13.760
+Good.
+
+e123164d-6096-40d3-a18e-34a67012e250-0
+00:00:15.600 --> 00:00:16.480
+Then I think we can go.
+
+735321a4-b8ff-4622-aeff-5de4791d9113-0
+00:00:16.640 --> 00:00:17.440
+That is a signal.
+
+40be2270-9000-4654-83b6-f95fa7643525-0
+00:00:18.240 --> 00:00:20.560
+Otherwise we're having a coffee break and
+back to work.
+
+c0b26514-5d43-464a-b575-975e9f86ad97-0
+00:00:21.360 --> 00:00:21.480
+Good.
+
+a39c51b1-c11a-4fc8-9030-59e6223ad4d8-0
+00:00:22.040 --> 00:00:24.240
+So I'm assuming Harry, you will.
+
+a4caddef-f07f-448b-beff-2145700991a7-0
+00:00:25.040 --> 00:00:25.760
+Yeah, I can be.
+
+fa16680f-dfa0-449f-a3ac-7a73289d6719-0
+00:00:26.720 --> 00:00:28.560
+Stand up Chando for a minute.
+
+7f8e17a6-dd13-439c-a14d-baa2ecd5e1ea-0
+00:00:28.840 --> 00:00:29.360
+Thank you.
+
+0ff9aae4-74fc-477c-b645-d9e7e743d56b-0
+00:00:29.920 --> 00:00:32.120
+OK,
+I'm just going to do our draught script
+
+0ff9aae4-74fc-477c-b645-d9e7e743d56b-1
+00:00:32.120 --> 00:00:32.520
+as well.
+
+e7f7e7ea-7292-40f8-88b7-d685ed5e2094-0
+00:00:32.520 --> 00:00:33.640
+Yes, excellent.
+
+81247b4d-3266-43e8-ba7f-79ae49f2b4f4-0
+00:00:33.640 --> 00:00:34.000
+Thank you.
+
+2429cd24-3ce5-4530-aada-4d9e1872265d-0
+00:00:34.280 --> 00:00:38.120
+So essentially this will be the end of
+the cat session, Chand.
+
+f5d97e78-7855-4a0f-91ba-f8f448d906a9-0
+00:00:38.120 --> 00:00:41.746
+I'll sort of wind the audience up a
+little bit or down a little bit
+
+f5d97e78-7855-4a0f-91ba-f8f448d906a9-1
+00:00:41.746 --> 00:00:44.520
+pretending that we're finishing up and
+all is well.
+
+03352a22-1757-4689-8382-20050dd85322-0
+00:00:44.760 --> 00:00:46.320
+Thank you very much for being here.
+
+8488f684-593f-4dd7-9b30-1d555f6313a9-0
+00:00:46.320 --> 00:00:47.680
+You've been a great crowd.
+
+50fdf5b0-c349-47dc-b98a-8c73d1e20d49-0
+00:00:48.120 --> 00:00:51.440
+Just one more thing, blah, blah, blah,
+blah, blah.
+
+b76cd30a-1f8a-4c07-9e55-0e818a044cce-0
+00:00:51.600 --> 00:00:54.200
+This is plus we play a huge hype video.
+
+d8857a57-ef4c-4deb-a62e-e6aa2ef3a25a-0
+00:00:54.520 --> 00:00:58.040
+The crowd goes wild like I'm sure they
+will in Melbourne tonight.
+
+d5a84602-8bfd-4da7-8f08-fcd3152df57c-0
+00:00:58.480 --> 00:01:02.480
+Let's go blind and then we dive right
+into the demo.
+
+ecf8d664-4bb9-40a7-8732-6b13634ac0e6-0
+00:01:03.480 --> 00:01:06.280
+So let's dive into a demo so we can see
+Plus in action.
+
+80fa1a03-dfb5-4160-a745-a46a941bee8d-0
+00:01:06.480 --> 00:01:09.335
+Please note that we're demoing live
+software today,
+
+80fa1a03-dfb5-4160-a745-a46a941bee8d-1
+00:01:09.335 --> 00:01:13.400
+so we really want to set a realistic
+expectation in how it should behave.
+
+db937d1b-0227-4c84-b427-671cdbc28a53-0
+00:01:13.680 --> 00:01:15.600
+This is the new CIA home.
+
+1ac2da3a-0334-49b3-823a-4a3107a38538-0
+00:01:16.000 --> 00:01:20.600
+We've re redesigned CIA with Plus up in
+the top left.
+
+b2ef5b6d-0194-4445-86a4-52068bce7348-0
+00:01:20.600 --> 00:01:25.740
+Here we have our new ACT trade,
+which makes it easy for you to navigate
+
+b2ef5b6d-0194-4445-86a4-52068bce7348-1
+00:01:25.740 --> 00:01:28.240
+between CIA and Plus in the middle.
+
+4849db1c-3726-4b45-b632-aa123518b890-0
+00:01:28.240 --> 00:01:31.040
+Here,
+we've reimagined how Enterprise Search
+
+4849db1c-3726-4b45-b632-aa123518b890-1
+00:01:31.040 --> 00:01:34.275
+works with Plus,
+so you can simply Click to start a
+
+4849db1c-3726-4b45-b632-aa123518b890-2
+00:01:34.275 --> 00:01:39.253
+conversation or type your question right
+in the search itself and get an answer
+
+4849db1c-3726-4b45-b632-aa123518b890-3
+00:01:39.253 --> 00:01:40.000
+immediately.
+
+b5051e6d-9407-4d8e-bb89-4569e9a002ee-0
+00:01:42.200 --> 00:01:42.680
+That's something.
+
+cadab8ee-e5a6-4f90-aaac-dc3923a862d0-0
+00:01:48.480 --> 00:01:50.120
+Oh, Kim took over the share.
+
+3e448d0c-903b-4d35-9372-90ef80f0e9cd-0
+00:01:51.680 --> 00:01:52.880
+Just can't mean to take care.
+
+19fd68f2-18ad-45d0-9829-4a92c406ff17-0
+00:01:53.440 --> 00:01:54.720
+No, sorry about that.
+
+6026f73c-90b8-4c5f-becb-2379628124c3-0
+00:01:54.840 --> 00:01:59.040
+I'm just trying to set up.
+
+6a1f3350-9041-4acf-8611-40aa115152da-0
+00:01:59.240 --> 00:02:04.160
+Sorry about that.
+
+ee120b45-ac93-4e7e-ac13-445db7d4705c-0
+00:02:09.000 --> 00:02:10.920
+And then lastly, we have the new banner.
+
+c30e1170-3fbc-475a-938a-e604d1f56be1-0
+00:02:10.960 --> 00:02:12.840
+The easiest way to get to plus.
+
+856e5276-ae6f-479d-a212-cf3405b26f17-0
+00:02:13.040 --> 00:02:14.000
+Let's try it now.
+
+d96d39a3-b44c-4bd8-a36b-fd38d1954105-0
+00:02:17.760 --> 00:02:19.720
+So this is the new Plus home.
+
+c8b97620-6d78-4eda-8f39-5d0ca7e494af-0
+00:02:19.920 --> 00:02:24.096
+We've adopted state of the art user
+design and experience to help the users
+
+c8b97620-6d78-4eda-8f39-5d0ca7e494af-1
+00:02:24.096 --> 00:02:26.240
+focus on what's most important to them.
+
+5786c54e-106f-4bb8-b8bd-fb5717626bb6-0
+00:02:26.760 --> 00:02:30.943
+We've deliberately designed this UX so
+you can get what you need from the system
+
+5786c54e-106f-4bb8-b8bd-fb5717626bb6-1
+00:02:30.943 --> 00:02:32.080
+without the busy work.
+
+48768f86-26d7-4d66-b084-9bbb6f3ec451-0
+00:02:32.400 --> 00:02:34.760
+Simple, clean and purposeful.
+
+d8a8274d-2e6d-4ba3-a58f-29e3696a7adf-0
+00:02:35.880 --> 00:02:38.960
+Plus doesn't just know my name,
+but it knows who I am.
+
+6c51afcf-94a9-42aa-bf51-13d59ddfaa7b-0
+00:02:39.520 --> 00:02:41.960
+It creates my enterprise digital twin.
+
+1d6f3fd6-46be-40cc-9d79-9ee8c7192e4e-0
+00:02:42.440 --> 00:02:45.873
+It knows my roles,
+it understands my KPIs that might be
+
+1d6f3fd6-46be-40cc-9d79-9ee8c7192e4e-1
+00:02:45.873 --> 00:02:50.165
+relevant to me for me to manage my
+business outcomes and it starts to
+
+1d6f3fd6-46be-40cc-9d79-9ee8c7192e4e-2
+00:02:50.165 --> 00:02:51.760
+monitor them on my behalf.
+
+567ed9f1-fc91-45ba-b1a0-39315ec8c204-0
+00:02:52.520 --> 00:02:56.438
+It learns from my past interactions with
+IT using the history of all of our
+
+567ed9f1-fc91-45ba-b1a0-39315ec8c204-1
+00:02:56.438 --> 00:02:57.160
+conversations.
+
+2472fcea-467b-4074-9f81-c20f6af6ef42-0
+00:02:57.880 --> 00:03:01.149
+So in short,
+it knows me even before I say the first
+
+2472fcea-467b-4074-9f81-c20f6af6ef42-1
+00:03:01.149 --> 00:03:01.520
+hello.
+
+7e839c44-075a-40ee-ae94-9f6bd834e9b3-0
+00:03:02.840 --> 00:03:06.640
+Let me walk you through what's here,
+right in the middle.
+
+05c57a45-cf43-420b-ac57-aa3962f10c32-0
+00:03:06.640 --> 00:03:11.193
+Here we have the in focus and this is the
+most important alerts that will appear in
+
+05c57a45-cf43-420b-ac57-aa3962f10c32-1
+00:03:11.193 --> 00:03:12.440
+the top middle section.
+
+26e80112-de8c-4c82-bd63-d28fa5d9ff4c-0
+00:03:12.440 --> 00:03:15.543
+For me,
+these are really important transactions
+
+26e80112-de8c-4c82-bd63-d28fa5d9ff4c-1
+00:03:15.543 --> 00:03:18.840
+and events that should be aware to me
+immediately.
+
+38704fd0-3254-4206-add2-93462f528e23-0
+00:03:19.640 --> 00:03:23.830
+In the middle is how you interact with
+plus you can ask it questions,
+
+38704fd0-3254-4206-add2-93462f528e23-1
+00:03:23.830 --> 00:03:28.920
+get it to help you reword emails and even
+start start some interactions immediately.
+
+b082e13f-d8a4-4f5c-9cd3-7d5d40905da0-0
+00:03:29.400 --> 00:03:32.966
+And all of this is secure with the
+technology one SAS environment,
+
+b082e13f-d8a4-4f5c-9cd3-7d5d40905da0-1
+00:03:32.966 --> 00:03:36.480
+so you can be sure that none of your data
+is going anywhere else.
+
+1f8cce83-69b0-4b16-8aea-9bf6234c7a11-0
+00:03:37.280 --> 00:03:41.747
+And over here on the right,
+we can see the My Tasks and Insights
+
+1f8cce83-69b0-4b16-8aea-9bf6234c7a11-1
+00:03:41.747 --> 00:03:42.160
+panel.
+
+2cc95d51-c18b-4c3d-8e1e-cb55c2a2258c-0
+00:03:42.720 --> 00:03:46.784
+These new cards give a breakdown of your
+day to day work and highlight some key
+
+2cc95d51-c18b-4c3d-8e1e-cb55c2a2258c-1
+00:03:46.784 --> 00:03:47.800
+points just for you.
+
+6877bcdc-9c91-4489-879d-743bbfcdc7bf-0
+00:03:48.600 --> 00:03:52.120
+You can see we've got some critical tasks
+outstanding that we need to action.
+
+f4a18a32-39a7-4e37-a4bb-b0570a8fa40e-0
+00:03:52.280 --> 00:03:56.866
+And that's been automatically surfaced to
+me this bad data suggesting that it'll
+
+f4a18a32-39a7-4e37-a4bb-b0570a8fa40e-1
+00:03:56.866 --> 00:03:57.320
+line up.
+
+b397c094-b950-4cff-8797-12c85e0958b7-0
+00:03:58.120 --> 00:04:02.907
+And then over on the left here we can see
+all our previous conversations so that we
+
+b397c094-b950-4cff-8797-12c85e0958b7-1
+00:04:02.907 --> 00:04:04.560
+can review or re engage them.
+
+82855283-8226-4bd8-baed-1908432fcd48-0
+00:04:04.880 --> 00:04:09.029
+I can even search through them all as I
+start to interact with Plus,
+
+82855283-8226-4bd8-baed-1908432fcd48-1
+00:04:09.029 --> 00:04:13.480
+it'll learn more about my work and keep
+refining that digital twin of me.
+
+898e73df-bcde-48d5-b22d-702816b32052-0
+00:04:14.240 --> 00:04:18.826
+All of this to just personalise the
+experience and responses so that I can
+
+898e73df-bcde-48d5-b22d-702816b32052-1
+00:04:18.826 --> 00:04:21.640
+get maximum value with at least
+interactions.
+
+63f01408-2cce-43d9-a17b-0ee2471ff716-0
+00:04:22.600 --> 00:04:23.920
+Plus is not just learning.
+
+3dfb18a8-2273-43f2-88f4-4ba85c4bd59c-0
+00:04:24.120 --> 00:04:28.384
+It uses my digital twin to prompt me
+towards the important activities and
+
+3dfb18a8-2273-43f2-88f4-4ba85c4bd59c-1
+00:04:28.384 --> 00:04:32.360
+events that should interest me and nudges
+me to intervene and react.
+
+26506053-a026-40d4-b78f-70b38fb7b7e1-0
+00:04:33.080 --> 00:04:35.680
+So without further ado,
+let's jump into Plus.
+
+047d9427-f034-4989-9358-c20acd1fd7df-0
+00:04:36.840 --> 00:04:40.751
+You can see in the middle that Plus has
+automatically surfaced the most critical
+
+047d9427-f034-4989-9358-c20acd1fd7df-1
+00:04:40.751 --> 00:04:43.600
+task for me both over on the right and
+here in the middle.
+
+feb062e0-3687-46f6-845d-3c01a728ea38-0
+00:04:44.240 --> 00:04:46.867
+Plus is built to help not only manage
+your tasks,
+
+feb062e0-3687-46f6-845d-3c01a728ea38-1
+00:04:46.867 --> 00:04:48.760
+but manage your business as a whole.
+
+47f81c51-4336-4134-9118-b7103691b980-0
+00:04:49.160 --> 00:04:54.620
+And insights provide me an overview of my
+key KPIs in my role that are shipped with
+
+47f81c51-4336-4134-9118-b7103691b980-1
+00:04:54.620 --> 00:04:55.920
+Plus out of the box.
+
+0b53bce9-1b8b-4876-9726-c1e7d59567bf-0
+00:04:56.360 --> 00:04:59.120
+And of course,
+I can override and update these two.
+
+77997808-864b-495a-a34c-010a772b3b28-0
+00:05:00.400 --> 00:05:04.120
+So I've given them a click and fantastic,
+I can see the results.
+
+fa96953d-ce69-44d6-bc35-eb57f58df729-0
+00:05:04.120 --> 00:05:09.363
+This has pulled back live data from my
+account in the ERP and I can see, oh,
+
+fa96953d-ce69-44d6-bc35-eb57f58df729-1
+00:05:09.363 --> 00:05:14.879
+I've got some leave approvals to action
+Plus is proactive in what it tells me to
+
+fa96953d-ce69-44d6-bc35-eb57f58df729-2
+00:05:14.879 --> 00:05:18.080
+start with,
+with always a bias towards action.
+
+29b1b9d1-db0c-4b51-a66f-d2a096f56992-0
+00:05:19.200 --> 00:05:21.640
+So let's start with those leave approvals.
+
+35bac29d-c543-43eb-8eb9-7c6a6f7c4133-0
+00:05:22.320 --> 00:05:22.920
+Fantastic.
+
+51aa1b32-7c98-4904-8d2d-a64306d146fa-0
+00:05:22.920 --> 00:05:28.839
+I can see Tony Teal and Jackie Jones has
+leave coming up and it's even suggested
+
+51aa1b32-7c98-4904-8d2d-a64306d146fa-1
+00:05:28.839 --> 00:05:30.520
+some next steps for me.
+
+d06b4632-9a90-4510-8f7e-427f08028a35-0
+00:05:30.560 --> 00:05:31.520
+That's fantastic.
+
+a2ccf156-54a3-4e98-b8e7-2803908a249a-0
+00:05:31.520 --> 00:05:34.200
+You can do some fixes here and that's OK.
+
+0fc26ceb-e3af-4e94-9b6a-98864c6aec62-0
+00:05:35.760 --> 00:05:41.640
+So let's say let's have a look at
+requests.
+
+54346cf4-4cd4-4c0a-8d36-11a62b4833d5-0
+00:05:41.640 --> 00:05:42.680
+I've got to get better at typing.
+
+dacf8fb6-c565-4722-92a9-4e04378b2953-0
+00:05:45.040 --> 00:05:49.216
+So when I start this task we use a sub
+agent architecture to bring back
+
+dacf8fb6-c565-4722-92a9-4e04378b2953-1
+00:05:49.216 --> 00:05:53.625
+additional relevant information and to
+add more data to our conversation so
+
+dacf8fb6-c565-4722-92a9-4e04378b2953-2
+00:05:53.625 --> 00:05:58.207
+we're not just talking about leave plus
+automatically cheques for conflicts in
+
+dacf8fb6-c565-4722-92a9-4e04378b2953-3
+00:05:58.207 --> 00:05:59.600
+the team leave calendar.
+
+82289ac1-1a07-448f-8b52-0234ebabb3c6-0
+00:05:59.960 --> 00:06:04.481
+It'll also call out to the brand new
+employee knowledge base to check the
+
+82289ac1-1a07-448f-8b52-0234ebabb3c6-1
+00:06:04.481 --> 00:06:09.308
+leave policy of their organisation too
+and logically works out if any of these
+
+82289ac1-1a07-448f-8b52-0234ebabb3c6-2
+00:06:09.308 --> 00:06:11.080
+approvals breach that policy.
+
+0ec48362-8175-4d5c-ac44-b402aab3b79c-0
+00:06:11.640 --> 00:06:14.080
+All without me having to even ask.
+
+3b101693-28ab-4f3c-ba76-78b9b5ace895-0
+00:06:14.880 --> 00:06:15.680
+As I can see.
+
+121791ca-92e2-4dc4-920c-f67848fdc165-0
+00:06:16.440 --> 00:06:16.840
+There we go.
+
+e65f5e9f-429f-45c9-b1a4-fbc03410fe62-0
+00:06:17.960 --> 00:06:21.570
+As I can see,
+none of the leave approvals breach any of
+
+e65f5e9f-429f-45c9-b1a4-fbc03410fe62-1
+00:06:21.570 --> 00:06:26.600
+the policies and most people will be away
+during our shutdown holiday period.
+
+c6654312-1bb5-450c-90de-c29528331b9c-0
+00:06:26.960 --> 00:06:27.400
+Close enough.
+
+f95d318e-5d22-4db7-b69d-8c70b30f4ff0-0
+00:06:29.320 --> 00:06:32.080
+And that's absolutely fantastic.
+
+20b43bdf-53d0-4f28-a3d8-0d57df8f7cb3-0
+00:06:32.320 --> 00:06:36.475
+If I had to do this manually,
+it would have been 3 or 4 different
+
+20b43bdf-53d0-4f28-a3d8-0d57df8f7cb3-1
+00:06:36.475 --> 00:06:39.560
+screens and 20 to 30 clicks and I just
+typed it.
+
+c6fbd098-7773-4735-b555-225bbe26b571-0
+00:06:41.200 --> 00:06:42.080
+That's fantastic.
+
+48e6c746-b527-4380-91eb-3406225bcf30-0
+00:06:42.600 --> 00:06:43.520
+I'm happy with those.
+
+76a0428b-254b-40a1-b606-337f7d9bf8e4-0
+00:06:43.520 --> 00:06:46.880
+So I'm just going to say approve it all.
+
+7390b262-7800-48d2-b0de-4e75de89fc32-0
+00:06:48.520 --> 00:06:52.301
+So because I'm confident now in those
+leave requests and I've had that
+
+7390b262-7800-48d2-b0de-4e75de89fc32-1
+00:06:52.301 --> 00:06:56.562
+additional information provided to me,
+I can easily just say approve it all and
+
+7390b262-7800-48d2-b0de-4e75de89fc32-2
+00:06:56.562 --> 00:06:58.480
+it'll take that action on my behalf.
+
+08936ca3-dc60-4024-a695-cd631fd14cf5-0
+00:06:58.960 --> 00:07:04.012
+It can even bulk approve leave requests
+for me so I don't have to individually
+
+08936ca3-dc60-4024-a695-cd631fd14cf5-1
+00:07:04.012 --> 00:07:07.210
+click each item and reply to each one
+separately,
+
+08936ca3-dc60-4024-a695-cd631fd14cf5-2
+00:07:07.210 --> 00:07:10.280
+which is an absolutely huge time saving
+for me.
+
+f3c3f941-419f-41c1-8c9e-44565c1ca836-0
+00:07:12.640 --> 00:07:13.280
+Thank you.
+
+a305f233-a511-464b-9577-786beb1535cc-0
+00:07:13.280 --> 00:07:22.060
+Thank you just written fill in my script
+so I don't maybe do a dance,
+
+a305f233-a511-464b-9577-786beb1535cc-1
+00:07:22.060 --> 00:07:26.200
+chant do or make the system bust.
+
+c4c3bd24-840c-45b9-88aa-11e8980c34dc-0
+00:07:28.280 --> 00:07:28.920
+Net 2.
+
+94e6a8a3-0c9a-49ee-a62a-f8ba5d38037f-0
+00:07:29.080 --> 00:07:29.840
+Net Step 2.
+
+78155259-5ac5-4fbf-b9f7-5c36c46eda4d-0
+00:07:38.920 --> 00:07:39.160
+Patrol.
+
+71c50949-a223-41a6-a849-b507d134da3a-0
+00:07:46.000 --> 00:07:49.448
+Do we thinking, some of my vice,
+IRS and team members listed,
+
+71c50949-a223-41a6-a849-b507d134da3a-1
+00:07:49.448 --> 00:07:53.619
+we should just call it deep thinking,
+deep thinking that's deeply critical
+
+71c50949-a223-41a6-a849-b507d134da3a-2
+00:07:53.619 --> 00:07:54.120
+thinking.
+
+b87221af-5231-4b9b-a383-71311d14246d-0
+00:07:54.920 --> 00:07:59.749
+We can just change the thinking label and
+I'll take that definitely what would
+
+b87221af-5231-4b9b-a383-71311d14246d-1
+00:07:59.749 --> 00:08:02.866
+happen when we're doing this analysis on
+the left,
+
+b87221af-5231-4b9b-a383-71311d14246d-2
+00:08:02.866 --> 00:08:06.840
+it will keep showing us the movement
+through the different ages.
+
+f86e4c5c-257a-4976-b821-f48c5c12d741-0
+00:08:06.840 --> 00:08:11.840
+So I'm just hoping there's enough jumping
+happening there.
+
+e6e2447c-75b7-495e-b2e4-494b0696bc5a-0
+00:08:12.480 --> 00:08:15.149
+Yeah,
+which can also be something we can speak
+
+e6e2447c-75b7-495e-b2e4-494b0696bc5a-1
+00:08:15.149 --> 00:08:15.320
+to.
+
+87b711ca-c869-4600-a9e1-624bde42c39a-0
+00:08:15.760 --> 00:08:17.360
+Yeah, such a system error.
+
+0957ffba-f3fc-498d-ba2f-9d23f95973b4-0
+00:08:18.040 --> 00:08:22.080
+So it approved one and had an error with
+the other, which is interesting.
+
+f1818109-8248-4d3c-8976-58831e141a26-0
+00:08:22.080 --> 00:08:25.240
+But it did try to do it,
+and that's why I was taking so little.
+
+d7c00f86-0a54-4ca5-acb8-49c23ff19eec-0
+00:08:25.240 --> 00:08:26.000
+Gets truthful.
+
+0856ae27-6a36-4893-977e-52a43a6cd01f-0
+00:08:26.560 --> 00:08:30.440
+So then I guess I wonder what my team's
+leave balances are like.
+
+1768aa09-9056-422c-9af9-ce351aed3cba-0
+00:08:37.720 --> 00:08:42.732
+So what I'm now asking is for it to go
+out to our data models and using our
+
+1768aa09-9056-422c-9af9-ce351aed3cba-1
+00:08:42.732 --> 00:08:46.888
+analytics on the fly,
+which we would have shown earlier in the
+
+1768aa09-9056-422c-9af9-ce351aed3cba-2
+00:08:46.888 --> 00:08:47.680
+cat session.
+
+260fb706-195a-4325-ab1d-f8ad0f386a34-0
+00:08:47.880 --> 00:08:52.466
+We're now scanning across the data models
+that I have access to and then
+
+260fb706-195a-4325-ab1d-f8ad0f386a34-1
+00:08:52.466 --> 00:08:57.429
+interpreting my leave request to pick the
+right data model and then create the
+
+260fb706-195a-4325-ab1d-f8ad0f386a34-2
+00:08:57.429 --> 00:08:59.000
+visualisation on the fly.
+
+714dada8-8170-43a6-9f15-40dc17a04c9d-0
+00:08:59.480 --> 00:09:02.960
+This is the death of dashboards,
+hopefully.
+
+bf7dd07c-44a8-469a-9731-b40f184c03fd-0
+00:09:11.440 --> 00:09:15.120
+Oh right,
+so this has created visualisation of life.
+
+89d85341-7a96-4b98-94ee-df5530fe2157-0
+00:09:15.120 --> 00:09:17.160
+This didn't work this morning for me,
+so this is fantastic.
+
+0549a700-c963-4b32-86a3-74617e07623c-0
+00:09:20.560 --> 00:09:20.840
+Thank you.
+
+0933fb71-2bb1-4fa3-9482-b1d0e6915c64-0
+00:09:22.560 --> 00:09:26.920
+I can see the leave balances and whoa,
+Jackie Jones blowing through the roof.
+
+4694fa1b-4bc6-49a1-bbfc-dbe4040744f5-0
+00:09:26.920 --> 00:09:28.640
+They're unbelievable.
+
+5a4a0386-1e4c-464f-a2e6-61b673605380-0
+00:09:28.960 --> 00:09:33.316
+Not only that,
+but Plus also reads the data within that
+
+5a4a0386-1e4c-464f-a2e6-61b673605380-1
+00:09:33.316 --> 00:09:38.840
+app visualisation and does an out wires
+analysis of that data as well.
+
+ec9f6111-f3a9-4ad5-91ea-bfbadcd623f6-0
+00:09:38.840 --> 00:09:43.743
+So it's automatically read it and pulled
+out that Jackie Jones has significantly
+
+ec9f6111-f3a9-4ad5-91ea-bfbadcd623f6-1
+00:09:43.743 --> 00:09:45.680
+higher leave balance of 50 days.
+
+a9e014e6-64c4-42b7-93f2-9781531013a2-0
+00:09:45.960 --> 00:09:50.229
+So it's not only brought back that
+analytics but actually interpreted that
+
+a9e014e6-64c4-42b7-93f2-9781531013a2-1
+00:09:50.229 --> 00:09:53.360
+data for me all within the technology one
+environment.
+
+56ecd6e1-578d-46c3-8667-6f26114ecf19-0
+00:09:54.320 --> 00:09:54.960
+That's amazing.
+
+d45d24b4-b7e3-40ea-9d57-8508fc9ba8b0-0
+00:09:57.120 --> 00:10:02.198
+So I can read some insights from Plus
+showing that Jackie has eight weeks of
+
+d45d24b4-b7e3-40ea-9d57-8508fc9ba8b0-1
+00:10:02.198 --> 00:10:03.320
+leave, 5050 days.
+
+0b0ba3c2-ed84-4f07-b3b1-b5c8956ee2ab-0
+00:10:04.000 --> 00:10:06.661
+And well,
+maybe Plus can help me follow on from
+
+0b0ba3c2-ed84-4f07-b3b1-b5c8956ee2ab-1
+00:10:06.661 --> 00:10:07.160
+this too.
+
+d6e5b15d-3183-4201-ab60-6b74a2a07e20-0
+00:10:07.680 --> 00:10:15.360
+So let's draught an email to Jackie
+reminding, you know what?
+
+4ecd7d9f-4cff-4439-8e05-aa9207584680-0
+00:10:15.360 --> 00:10:17.720
+I'm going to use a voice.
+
+c07d71f0-1e8a-4597-993e-6f261ac85950-0
+00:10:19.120 --> 00:10:24.608
+Can you please draught an email to Jackie
+reminding her of the importance of taking
+
+c07d71f0-1e8a-4597-993e-6f261ac85950-1
+00:10:24.608 --> 00:10:25.000
+leave?
+
+a998f00c-e188-4d47-bc4b-0e4bcae43d39-0
+00:10:27.200 --> 00:10:28.800
+Isn't that so much easier than typing?
+
+e50c7a8e-9adc-4a4d-a675-d4d901da008d-0
+00:10:29.920 --> 00:10:32.640
+Oh, you couldn't really see it up there.
+
+4ffd1c3c-0667-4aeb-8624-57bc97f562dc-0
+00:10:35.600 --> 00:10:37.080
+We'll see if it wants to use a tool.
+
+0a7291af-5857-47a9-b29d-e64ba083f34b-0
+00:10:42.000 --> 00:10:44.120
+So when that returns,
+we'll be able to see that.
+
+70f67dc9-4a08-4202-9ac2-124de4289643-0
+00:10:44.120 --> 00:10:48.337
+Plus is learnt the way that I speak and
+interact and using the context of our
+
+70f67dc9-4a08-4202-9ac2-124de4289643-1
+00:10:48.337 --> 00:10:49.040
+interactions.
+
+ade7279b-473b-452d-9294-e1cc6e27f902-0
+00:10:49.040 --> 00:10:52.800
+We'll also personalise the email
+including the to and from.
+
+6ea4efaf-ab61-4e58-be63-d12f060af01c-0
+00:10:52.800 --> 00:10:55.920
+I'm guessing it's trying to use a tool.
+
+e4e1ab05-286c-4e2d-95e7-08b69409c295-0
+00:10:55.920 --> 00:11:04.437
+I should have said don't use a tool all
+right, we're going to tailor some things,
+
+e4e1ab05-286c-4e2d-95e7-08b69409c295-1
+00:11:04.437 --> 00:11:12.955
+but we're getting pretty close there we
+go here's my draught email taking care of
+
+e4e1ab05-286c-4e2d-95e7-08b69409c295-2
+00:11:12.955 --> 00:11:16.280
+you managing your leave balance.
+
+92cf9353-d266-4d00-845f-b0165a0d8932-0
+00:11:16.400 --> 00:11:20.000
+I hope you're well being reviewing,
+you know a significant amount
+
+92cf9353-d266-4d00-845f-b0165a0d8932-1
+00:11:20.000 --> 00:11:21.200
+approximately 50 days.
+
+5c9e2d3b-35eb-42ef-9a41-4790ac68752f-0
+00:11:21.200 --> 00:11:26.808
+So it's used that context of the previous
+interaction to even personalise the email
+
+5c9e2d3b-35eb-42ef-9a41-4790ac68752f-1
+00:11:26.808 --> 00:11:31.415
+that we're writing to Jackie,
+and then also suggesting and then even
+
+5c9e2d3b-35eb-42ef-9a41-4790ac68752f-2
+00:11:31.415 --> 00:11:36.757
+using the context of the interaction to
+pull back my details as well so I don't
+
+5c9e2d3b-35eb-42ef-9a41-4790ac68752f-3
+00:11:36.757 --> 00:11:38.360
+have to update anything.
+
+e2835c67-cf05-466d-b127-484decf7520b-0
+00:11:38.760 --> 00:11:44.223
+That's using the power of the technology
+1 Enterprise all in one to help me do a
+
+e2835c67-cf05-466d-b127-484decf7520b-1
+00:11:44.223 --> 00:11:49.755
+workflow that we'll have to do outside
+the system today, all within Plus Finally,
+
+e2835c67-cf05-466d-b127-484decf7520b-2
+00:11:49.755 --> 00:11:53.600
+and I know this won't work,
+but it's part of the script.
+
+0862975e-77e3-459d-b01a-38f0bc2b9cbc-0
+00:11:54.080 --> 00:11:58.213
+We've even allowed it to send emails,
+which now means that it's easier than
+
+0862975e-77e3-459d-b01a-38f0bc2b9cbc-1
+00:11:58.213 --> 00:12:00.280
+ever to integrate that whole workflow.
+
+c2534c28-42b6-439d-8a87-09984bca8163-0
+00:12:04.960 --> 00:12:05.840
+This will air insurance.
+
+d1b07bb4-892b-4335-8fff-663488c59200-0
+00:12:07.080 --> 00:12:11.338
+So you've just seen how easy it was in
+Plus to go from actioning a task to
+
+d1b07bb4-892b-4335-8fff-663488c59200-1
+00:12:11.338 --> 00:12:14.348
+looking at data,
+taking an insight and performing an
+
+d1b07bb4-892b-4335-8fff-663488c59200-2
+00:12:14.348 --> 00:12:15.200
+action from it.
+
+fc3e5fe0-e663-4bcb-b86b-caf846efd4d7-0
+00:12:16.120 --> 00:12:19.447
+Plus isn't about just doing the same work
+you do right now,
+
+fc3e5fe0-e663-4bcb-b86b-caf846efd4d7-1
+00:12:19.447 --> 00:12:23.440
+but improving the way you work with data
+and insights or from the chat.
+
+35ffc78f-4d3a-41a6-be61-4501e1c9f6d0-0
+00:12:26.360 --> 00:12:27.400
+That's scenario one.
+
+7f6f1021-d6b3-408c-8d19-36ed29801745-0
+00:12:36.920 --> 00:12:39.560
+Just hit and just hit the button.
+
+6b1f149a-0941-4c83-8e20-2b23adad79c7-0
+00:12:39.680 --> 00:12:42.600
+It can it can also do text to voice right?
+
+f26f7c8d-3062-444d-bf44-aec46eed5d52-0
+00:12:42.600 --> 00:12:53.133
+Just like can you just it's not gonna
+don't tell me the audio is not streaming
+
+f26f7c8d-3062-444d-bf44-aec46eed5d52-1
+00:12:53.133 --> 00:12:54.200
+through.
+
+43832df4-a81a-4876-999a-ac01585912d3-0
+00:12:57.920 --> 00:13:00.160
+We tried yesterday yeah, that's work.
+
+4e7e1774-fbae-4e06-96d5-38cf5965f6e8-0
+00:13:01.480 --> 00:13:05.920
+I got one question and feedback in the
+script you say can test for conflicts.
+
+2dbd8d77-6c9a-4303-8aa6-0645405e625a-0
+00:13:05.920 --> 00:13:07.640
+You know people going on leave and stuff.
+
+aa014498-a91d-4e97-9810-5041c48dfb77-0
+00:13:08.040 --> 00:13:12.280
+But then when it comes up it doesn't
+prove it.
+
+eef53255-3d28-47a6-81ce-ce4d3201949f-0
+00:13:12.560 --> 00:13:14.280
+It's just your words you say there.
+
+ca41e171-95c3-4354-86e6-4418ac449167-0
+00:13:14.600 --> 00:13:18.931
+So it either either have a scenario that
+has conflicts or the screen has to say
+
+ca41e171-95c3-4354-86e6-4418ac449167-1
+00:13:18.931 --> 00:13:20.880
+there are no conflicts or something.
+
+8ea01ee6-ecae-462e-b660-0675ed3eeaf0-0
+00:13:20.880 --> 00:13:22.720
+Because I don't know whether to believe
+you or not.
+
+c27b5f83-2d9b-45e9-97b0-53131d005bd4-0
+00:13:22.720 --> 00:13:24.560
+You say that but I don't see it happening.
+
+18dbdd6e-6087-4630-a16a-904136d5878a-0
+00:13:25.800 --> 00:13:34.680
+It's the only piece I can fix that no
+drama so we move to the next.
+
+95f72246-7ce1-4207-9827-08bbcddb76cd-0
+00:13:36.360 --> 00:13:37.960
+Your boss is making me nervous.
+
+77966cc5-f286-4e16-ad78-0c9279e4e8b4-0
+00:13:39.200 --> 00:13:40.560
+Waiting should be a sweaty part.
+
+2830968a-c163-42da-b140-efa9f49f1d9b-0
+00:13:42.000 --> 00:13:43.280
+Transition to that.
+
+74102f5e-79ae-47f3-97e4-ee9700c76ecf-0
+00:13:53.960 --> 00:13:56.446
+All right,
+So I don't have a script or anything,
+
+74102f5e-79ae-47f3-97e4-ee9700c76ecf-1
+00:13:56.446 --> 00:13:59.440
+but I'm going to show you the asset
+supply chain scenario.
+
+291bd0d8-10c8-4b2d-9200-7a66bcf107ea-0
+00:13:59.440 --> 00:14:03.840
+And this is pretty pretty much the
+scenario we want to show on at Showcase.
+
+38188335-a69f-498a-b433-0d67767b0f06-0
+00:14:03.840 --> 00:14:05.840
+So can we imagine?
+
+625985d6-0ebd-4a75-b36a-7d320cdfc5c7-0
+00:14:05.840 --> 00:14:09.358
+I've just come into work for the day and
+you know,
+
+625985d6-0ebd-4a75-b36a-7d320cdfc5c7-1
+00:14:09.358 --> 00:14:15.152
+the office is looking a bit of a state of
+disrepair and so I'm going to just report
+
+625985d6-0ebd-4a75-b36a-7d320cdfc5c7-2
+00:14:15.152 --> 00:14:17.359
+a couple of issues through plus.
+
+b844ae7d-dec3-426e-9546-00b13ea446e1-0
+00:14:18.800 --> 00:14:23.403
+So here I'm basically reporting that
+there's some ripped carpet on level 4 and
+
+b844ae7d-dec3-426e-9546-00b13ea446e1-1
+00:14:23.403 --> 00:14:25.560
+a hole in the wall in meeting room 6.
+
+aaac6aa3-345e-4781-af61-498e9dfc46c1-0
+00:14:26.240 --> 00:14:29.160
+So that's going to go off and think and
+we'll give that a few seconds.
+
+db87dd11-d2ea-4905-857b-82cbeabb9383-0
+00:14:29.160 --> 00:14:32.409
+But normally, you know,
+user app to come into CIA,
+
+db87dd11-d2ea-4905-857b-82cbeabb9383-1
+00:14:32.409 --> 00:14:34.640
+fill out some forms, attach photos.
+
+99c57405-d184-4dbb-9529-8f19285f96ae-0
+00:14:36.160 --> 00:14:40.709
+The idea in showcase is we will attach a
+photo down here and have plus analyse
+
+99c57405-d184-4dbb-9529-8f19285f96ae-1
+00:14:40.709 --> 00:14:41.400
+that for us.
+
+8d5dd8a0-75fd-4095-b923-0741f9ed6653-0
+00:14:42.240 --> 00:14:47.265
+But for now, we're just doing text,
+so it's going through the system looking
+
+8d5dd8a0-75fd-4095-b923-0741f9ed6653-1
+00:14:47.265 --> 00:14:52.487
+for existing work requests that someone
+else might have already raised and just
+
+8d5dd8a0-75fd-4095-b923-0741f9ed6653-2
+00:14:52.487 --> 00:14:57.840
+figuring out what what the next steps are
+and how it can create a new one for us.
+
+74828dfe-ca79-4482-a397-16c8cc841f5c-0
+00:14:57.840 --> 00:14:58.240
+So.
+
+945c6767-dca3-45a3-a1c5-c2d7ac7451d4-0
+00:15:08.400 --> 00:15:11.857
+I guess the idea here as well is we're
+reporting multiple issues at once and
+
+945c6767-dca3-45a3-a1c5-c2d7ac7451d4-1
+00:15:11.857 --> 00:15:14.731
+just showing the plus is actually clever
+enough to handle that,
+
+945c6767-dca3-45a3-a1c5-c2d7ac7451d4-2
+00:15:14.731 --> 00:15:17.920
+not just going to give it something
+simple, challenge it a little bit.
+
+ad61d263-a09a-40ba-af9c-0954b3316aeb-0
+00:15:18.920 --> 00:15:20.000
+So it's come back.
+
+cd908026-41c1-4909-8b17-eeaeeb01a1fd-0
+00:15:20.800 --> 00:15:22.960
+We're still polishing up this sort of
+format.
+
+73a4cc32-fc29-4424-92df-a727f4b89f07-0
+00:15:22.960 --> 00:15:28.640
+There's it's a wall of text,
+but the idea here is it's already created
+
+73a4cc32-fc29-4424-92df-a727f4b89f07-1
+00:15:28.640 --> 00:15:29.520
+one for us.
+
+b996addb-a970-4746-a502-4ec6f70ac399-0
+00:15:29.520 --> 00:15:32.144
+So the hole in the wall,
+it hasn't found an existing 1,
+
+b996addb-a970-4746-a502-4ec6f70ac399-1
+00:15:32.144 --> 00:15:34.440
+so it's just gone ahead and created that
+for us.
+
+32ffb5e1-7a12-4483-8404-ecc8ffe00e26-0
+00:15:35.760 --> 00:15:38.717
+And down here,
+it's actually found that someone else has
+
+32ffb5e1-7a12-4483-8404-ecc8ffe00e26-1
+00:15:38.717 --> 00:15:41.000
+already reported that the carpet's
+damaged.
+
+df4c521a-4bd5-4691-b6ae-1e7a3330e03b-0
+00:15:41.320 --> 00:15:47.740
+So we don't have to raise anything here,
+but it is going to give us the option to
+
+df4c521a-4bd5-4691-b6ae-1e7a3330e03b-1
+00:15:47.740 --> 00:15:52.360
+follow and get email notifications when
+that is processed.
+
+e69c58c8-1787-4dd1-9524-034d6247f359-0
+00:15:52.360 --> 00:15:57.720
+So should be pretty quick.
+
+2d05d893-69e6-4464-94e0-4f966f3c05fc-0
+00:16:21.480 --> 00:16:23.636
+Yeah,
+just confirmation now we'll get notified
+
+2d05d893-69e6-4464-94e0-4f966f3c05fc-1
+00:16:23.636 --> 00:16:24.600
+when that gets fixed.
+
+40a6286f-46c4-4657-a7d5-7e54495c04e9-0
+00:16:24.600 --> 00:16:25.840
+So that's basically it.
+
+13c6d276-bef0-4925-82ec-13aaa479fbe3-0
+00:16:25.840 --> 00:16:32.240
+We've now raised or reported to two
+issues and so now our jobs are done.
+
+c9595ccc-795a-405b-9167-fdcba71ff27d-0
+00:16:33.040 --> 00:16:39.280
+So the next part we want to show is we've
+actually got a work request that we
+
+c9595ccc-795a-405b-9167-fdcba71ff27d-1
+00:16:39.280 --> 00:16:41.520
+raised a little bit earlier.
+
+e0deb0d0-b6f4-40f5-aedb-a23de6a59c0d-0
+00:16:43.480 --> 00:16:48.015
+Now I'm referring to it by the actual
+reference number here,
+
+e0deb0d0-b6f4-40f5-aedb-a23de6a59c0d-1
+00:16:48.015 --> 00:16:53.517
+but in showcase we're going to change
+that and it'll be how's my existing
+
+e0deb0d0-b6f4-40f5-aedb-a23de6a59c0d-2
+00:16:53.517 --> 00:16:56.119
+request for desk replacement going.
+
+fd2ffd9f-8ed2-478b-8ef2-e565483edbe2-0
+00:16:56.120 --> 00:16:58.800
+So just still working on that,
+but that will be there.
+
+6b9a6612-67dd-42df-92f2-be6a272ba188-0
+00:16:59.840 --> 00:17:03.080
+So this is going in and just reading the
+details of that existing request.
+
+475aea02-a020-49fb-90c2-85b7dc968dcc-0
+00:17:08.440 --> 00:17:12.256
+So found it and it's actually found that
+there's already an approved work order on
+
+475aea02-a020-49fb-90c2-85b7dc968dcc-1
+00:17:12.256 --> 00:17:14.280
+that work request to go and get that
+fixed.
+
+dce1e7bd-7ae2-4d1d-ae9f-de6033e8d221-0
+00:17:14.840 --> 00:17:20.755
+So now we what we're going to do is
+actually requisition a new desk for that
+
+dce1e7bd-7ae2-4d1d-ae9f-de6033e8d221-1
+00:17:20.755 --> 00:17:21.600
+work order.
+
+9996c9c8-7a36-49f4-8b27-e2bbdb57e857-0
+00:17:24.160 --> 00:17:27.782
+So just holding its hand a little bit
+here just with that prompt,
+
+9996c9c8-7a36-49f4-8b27-e2bbdb57e857-1
+00:17:27.782 --> 00:17:29.320
+but that's the general idea.
+
+28bba0ab-2be2-4f96-bced-ed8f512cbf24-0
+00:17:29.320 --> 00:17:31.680
+We'll just ask for a new desk to be
+requisitioned onto it.
+
+c82249cf-75e3-4d5a-9989-17ac1d01bbe1-0
+00:17:32.320 --> 00:17:36.357
+So now this one's going through and it's
+actually looking through our supply chain
+
+c82249cf-75e3-4d5a-9989-17ac1d01bbe1-1
+00:17:36.357 --> 00:17:39.520
+catalogue and looking for a suitable
+product, some sort of desk.
+
+1afbf468-498d-4d6a-b150-0621117bcd6e-0
+00:17:46.120 --> 00:17:49.418
+And with these scenarios,
+the idea is that it is meant to actually
+
+1afbf468-498d-4d6a-b150-0621117bcd6e-1
+00:17:49.418 --> 00:17:52.520
+come back and ask for user confirmation
+before doing anything.
+
+924a748c-2846-4f65-b654-b3d11f737ccc-0
+00:17:53.600 --> 00:17:56.680
+Just having a little bit of trouble
+getting that working at the moment.
+
+aec23775-f950-46ae-bd86-825975b24c94-0
+00:17:57.320 --> 00:18:00.760
+It's a bit hit and miss,
+but to agree with you.
+
+1a87629e-d5b6-4c7e-8025-f8b58703ef02-0
+00:18:00.800 --> 00:18:01.920
+Yeah, that is the idea.
+
+581e482a-65c9-41fe-9667-a55f3b7aef12-0
+00:18:01.920 --> 00:18:07.377
+I think the whole purchasing part will
+resonate with a lot of the audience
+
+581e482a-65c9-41fe-9667-a55f3b7aef12-1
+00:18:07.377 --> 00:18:12.981
+because so many people raise purchase
+requisitions for and the fact that you
+
+581e482a-65c9-41fe-9667-a55f3b7aef12-2
+00:18:12.981 --> 00:18:18.584
+can just jump in here and say I need to
+purchase something and it can go and
+
+581e482a-65c9-41fe-9667-a55f3b7aef12-3
+00:18:18.584 --> 00:18:20.040
+validate everything.
+
+df6c2f62-b291-46fa-bae9-4a61121e8aef-0
+00:18:20.200 --> 00:18:21.120
+Create that for you.
+
+46aa8389-b881-4d20-b6a5-1ef0de850f93-0
+00:18:22.880 --> 00:18:29.629
+And what I like you said, Matt, is rather,
+I heard you said almost getting on this
+
+46aa8389-b881-4d20-b6a5-1ef0de850f93-1
+00:18:29.629 --> 00:18:35.160
+path and Harry said the same is in the
+older way, the existing way.
+
+39b38d86-e67c-40a9-8b6f-8daba1a555e0-0
+00:18:35.160 --> 00:18:37.254
+You've got to know ERP,
+you've got to go to this screen and that
+
+39b38d86-e67c-40a9-8b6f-8daba1a555e0-1
+00:18:37.254 --> 00:18:39.640
+screen and this screen and that screen
+and you're just asking a question.
+
+d704c129-57e2-43ba-a0a4-00e1b50b3f86-0
+00:18:39.640 --> 00:18:45.762
+So I don't know how you get that into the
+script as a macro somewhere we will get
+
+d704c129-57e2-43ba-a0a4-00e1b50b3f86-1
+00:18:45.762 --> 00:18:49.272
+the,
+we're thinking when we go to plus there's
+
+d704c129-57e2-43ba-a0a4-00e1b50b3f86-2
+00:18:49.272 --> 00:18:54.498
+a clock we've been using will also
+additionally augment that with the
+
+d704c129-57e2-43ba-a0a4-00e1b50b3f86-3
+00:18:54.498 --> 00:18:57.560
+screens reducing and the clicks reducing.
+
+461d4096-0145-4d7f-bcc1-085a0e9c74b1-0
+00:18:57.960 --> 00:19:01.040
+We'll say 20 screen, 50 clicks.
+
+21329a23-6cbf-4e64-bfbb-40c864374617-0
+00:19:01.560 --> 00:19:04.320
+And then with plus we'll just say, OK,
+that strike it off.
+
+7f76049d-265e-459f-814b-deb8891c67de-0
+00:19:04.320 --> 00:19:07.840
+And this is what happens, one screen,
+one prompt.
+
+b2a0b706-0ed2-49d3-bc50-f5aa37b3829b-0
+00:19:07.840 --> 00:19:10.600
+So that's how we will keep on building
+the contrast here.
+
+ebef9b3a-e77c-4799-914c-a1177f2d0325-0
+00:19:12.440 --> 00:19:15.931
+Yeah, so like I said it,
+it is meant to come back and confirm,
+
+ebef9b3a-e77c-4799-914c-a1177f2d0325-1
+00:19:15.931 --> 00:19:19.089
+but it has found a pretty good product in
+our catalogue,
+
+ebef9b3a-e77c-4799-914c-a1177f2d0325-2
+00:19:19.089 --> 00:19:23.467
+just a standing desk got a quantity,
+a price and it's dissected into that work
+
+ebef9b3a-e77c-4799-914c-a1177f2d0325-3
+00:19:23.467 --> 00:19:23.800
+order.
+
+9ebd99ca-e442-422b-b5e1-f015fb68310d-0
+00:19:23.800 --> 00:19:28.520
+So that saved quite a bit of time there
+as well on that requisition process.
+
+eb798ae5-e0e3-448f-a325-eb215fa5c58b-0
+00:19:28.520 --> 00:19:32.911
+So the last part of the scenario is,
+you know, maybe we're noticing, you know,
+
+eb798ae5-e0e3-448f-a325-eb215fa5c58b-1
+00:19:32.911 --> 00:19:37.358
+there's quite a few problems, you know,
+around the building and we want to see,
+
+eb798ae5-e0e3-448f-a325-eb215fa5c58b-2
+00:19:37.358 --> 00:19:39.804
+you know,
+what kind of costs going into our
+
+eb798ae5-e0e3-448f-a325-eb215fa5c58b-3
+00:19:39.804 --> 00:19:42.640
+building maintenance project for the
+current year.
+
+23f6e345-1d8f-45e8-8b83-7f86c3f13538-0
+00:19:42.640 --> 00:19:47.418
+So here I'm just asking you to show the
+estimates of actuals my building
+
+23f6e345-1d8f-45e8-8b83-7f86c3f13538-1
+00:19:47.418 --> 00:19:49.840
+maintenance project in the last year.
+
+f2ac6394-06f8-4e00-9ff1-3a5e5a823810-0
+00:19:50.320 --> 00:19:56.000
+And I've been fairly specific about the
+format vertical bar chart.
+
+c1159be0-1e52-48e8-9c23-a60711724307-0
+00:19:56.920 --> 00:20:06.000
+So we will see what it comes back with
+while that's happening.
+
+1382d603-2c18-4bd2-b691-db7da4520389-0
+00:20:06.480 --> 00:20:07.960
+You said something at the beginning also.
+
+bfc40324-62d9-4287-871b-b030da03b76d-0
+00:20:09.040 --> 00:20:13.640
+And it goes to what you said, Lisa,
+is I think I heard you say you'd change
+
+bfc40324-62d9-4287-871b-b030da03b76d-1
+00:20:13.640 --> 00:20:18.240
+it to that like more non technical
+language like rather than normal points.
+
+14ca35d1-33c4-46c7-a4f8-e22681bacfb0-0
+00:20:18.240 --> 00:20:19.680
+I don't understand, I think.
+
+ca73e47d-435a-4c90-9ff2-45359acb9d6d-0
+00:20:19.680 --> 00:20:21.840
+But yeah, I'd be really.
+
+fb9c2a13-5226-486e-98ce-56bc28bb96e1-0
+00:20:32.240 --> 00:20:34.707
+So like I said,
+I've asked for vertical but it's decided
+
+fb9c2a13-5226-486e-98ce-56bc28bb96e1-1
+00:20:34.707 --> 00:20:35.400
+to do something.
+
+b5312159-1bd6-4ccc-b41a-d3c0b6751ee5-0
+00:20:41.640 --> 00:20:43.120
+Tell me what to ask for.
+
+ffaf6ee7-6de6-4bd8-9ee2-d3b12a166012-0
+00:20:43.120 --> 00:20:43.960
+I'll stick to it.
+
+d2159425-af78-4919-9fa2-812fba6bb64a-0
+00:20:45.560 --> 00:20:47.640
+But yeah,
+it's it's done a pretty slow anyway.
+
+8be7ab15-0163-47d8-9831-8ae1316de6ec-0
+00:20:47.720 --> 00:20:51.800
+Yeah,
+a month breakdown and then the same thing.
+
+50f9e2b6-1ab3-4a7f-9567-20b82a22e100-0
+00:20:52.120 --> 00:20:53.600
+Bit of an analysis down below.
+
+f37db0f7-82ad-41b6-9a95-f73beaa0ec79-0
+00:20:53.600 --> 00:20:56.960
+So yeah, very cool, very nice.
+
+a043ca4f-1b53-4a07-8cb6-a35b4eeac664-0
+00:20:57.640 --> 00:21:02.640
+Just you recently and tells a story which
+I think an awesome value.
+
+a7c8f53e-af6b-4175-b677-7e3e6e1b1832-0
+00:21:03.600 --> 00:21:05.120
+Yeah, that is awesome.
+
+00c7ed23-a328-45b9-814e-72932eaadafe-0
+00:21:06.080 --> 00:21:06.280
+Yeah.
+
+14a22ec0-3aa3-4d57-91fe-44fb0532ddb1-0
+00:21:06.280 --> 00:21:09.720
+So like I said,
+that will be much faster come showcase.
+
+febf2e87-5c56-453e-8581-eff887a841a5-0
+00:21:12.720 --> 00:21:17.960
+Yeah, Yeah, that's the scenario so far.
+
+713b6ad2-1c16-48ab-977b-b88e91ddcb61-0
+00:21:18.200 --> 00:21:33.680
+Very good games online.
+
+164d4c2f-725d-446d-8149-e5a461c4b403-0
+00:21:34.880 --> 00:21:37.800
+Who's the time you should actually take
+over?
+
+31e19c28-3d77-4fde-8a32-fa43f61dde23-0
+00:21:39.600 --> 00:21:41.280
+So I'll give you the background for that.
+
+33c0700c-544c-437d-bc52-f1a108395493-0
+00:21:41.280 --> 00:21:46.610
+Cam and I are both unwell and he's this
+morning can't speak so I'm going to do
+
+33c0700c-544c-437d-bc52-f1a108395493-1
+00:21:46.610 --> 00:21:47.960
+the talking for him.
+
+5c014780-58c1-4427-b6fb-e39f8765e358-0
+00:21:48.040 --> 00:21:51.708
+He was trying to teach me how to share
+the from the phone,
+
+5c014780-58c1-4427-b6fb-e39f8765e358-1
+00:21:51.708 --> 00:21:53.760
+but he obviously actually did it.
+
+e2aa7ba5-1dbf-4330-ae9d-5cf2e735e222-0
+00:21:53.760 --> 00:21:57.120
+So we've decided he'll share from the
+phone and I'll do the talking for him.
+
+213086ca-1845-43d5-9062-ca4cba750f4b-0
+00:21:58.160 --> 00:21:59.480
+OK, bit of A tag then.
+
+451bb23e-f9a2-4f78-8dcb-2f117cbb167b-0
+00:22:00.120 --> 00:22:01.240
+So let's hope he actually shares.
+
+0125a5f6-cb2a-4ebc-852d-d40f3567a3e7-0
+00:22:01.240 --> 00:22:04.000
+So,
+so the background on this scenario is
+
+0125a5f6-cb2a-4ebc-852d-d40f3567a3e7-1
+00:22:04.000 --> 00:22:07.680
+we're actually doing it from the Plus app
+on the phone.
+
+952459cf-1787-4d90-852c-cf70ea6b8fb3-0
+00:22:08.360 --> 00:22:10.720
+So he's now sharing his phone.
+
+0fcc5eb5-247b-4ffa-ac9b-530742cf2818-0
+00:22:10.720 --> 00:22:15.720
+So Chandon's a busy CTO and he might be
+on his way into work and using his phone
+
+0fcc5eb5-247b-4ffa-ac9b-530742cf2818-1
+00:22:15.720 --> 00:22:16.400
+to do this.
+
+e1f57ac8-ae44-4589-89eb-ba5b2ec2d44f-0
+00:22:17.880 --> 00:22:22.920
+So basically the context is he's
+wondering about his open vacancies.
+
+a462d732-08d0-4d6f-a000-8769a962b2c7-0
+00:22:23.560 --> 00:22:29.156
+So he's got some something he's hiring
+for so he can ask what vacancies he has
+
+a462d732-08d0-4d6f-a000-8769a962b2c7-1
+00:22:29.156 --> 00:22:31.920
+open and that'll have a bit of a think.
+
+d2d3e609-4f04-41ad-9306-7412f442b83d-0
+00:22:32.520 --> 00:22:35.937
+Now one of the things here is that in our
+system,
+
+d2d3e609-4f04-41ad-9306-7412f442b83d-1
+00:22:35.937 --> 00:22:41.200
+we often call vacancies requisitions as
+the thing, but people use vacancies.
+
+fb1350ce-d625-4352-a06e-3f61015747d5-0
+00:22:41.200 --> 00:22:42.520
+What open jobs do I have?
+
+a43b0dd9-41a1-4f21-8cb3-8a2654f42af5-0
+00:22:42.520 --> 00:22:43.720
+What open positions do I have?
+
+46ff9916-7c0d-4ae8-a985-eacb9ad6c1ca-0
+00:22:43.720 --> 00:22:46.960
+So we've actually put a lot of work into
+trying to cover off different things.
+
+14028cb7-ca92-491d-aae5-3b5f5bc6179c-0
+00:22:46.960 --> 00:22:50.277
+So you can ask for a vacancy and it
+actually comes back and does that context
+
+14028cb7-ca92-491d-aae5-3b5f5bc6179c-1
+00:22:50.277 --> 00:22:51.000
+matching as well.
+
+d743265b-5be8-4cdc-a86a-c634c40f305f-0
+00:22:51.000 --> 00:22:55.000
+So it matches up to what you know,
+people are actually asking about.
+
+ff206db6-d7f7-4577-a2cf-4545990d3fc9-0
+00:22:55.240 --> 00:22:58.960
+So you can see that we've got an open
+vacancy for the facilities manager.
+
+04d9eab0-5803-48ef-abc5-3f23db555038-0
+00:22:59.040 --> 00:23:02.400
+So let's see what applications are on
+that at the moment.
+
+d4384ae4-9970-41fc-b847-8c2c6d80e69b-0
+00:23:06.080 --> 00:23:08.040
+And again,
+he's asking about what's on that job.
+
+e988b250-5e90-4ab6-98a0-7d0148cd9d4c-0
+00:23:08.040 --> 00:23:13.291
+So he's using a slightly different word,
+but it's still knowing the context and
+
+e988b250-5e90-4ab6-98a0-7d0148cd9d4c-1
+00:23:13.291 --> 00:23:16.835
+it's able to match between different
+wording choices,
+
+e988b250-5e90-4ab6-98a0-7d0148cd9d4c-2
+00:23:16.835 --> 00:23:20.840
+which is very different than just doing a
+text based search.
+
+2c73a91a-c4fe-4099-b605-da5c56be0286-0
+00:23:24.480 --> 00:23:27.851
+So you can see here,
+it's got three applications there that
+
+2c73a91a-c4fe-4099-b605-da5c56be0286-1
+00:23:27.851 --> 00:23:29.200
+are in the review stage.
+
+c7e98b62-532c-4219-9e08-6cd7b718a9c5-0
+00:23:29.440 --> 00:23:32.476
+It's given a bit of a highlight of who
+they are and where, you know,
+
+c7e98b62-532c-4219-9e08-6cd7b718a9c5-1
+00:23:32.476 --> 00:23:33.840
+if they're at different stages.
+
+4e4b186a-ac3c-40e0-a898-64301ba3827e-0
+00:23:33.960 --> 00:23:37.720
+So let's ask for a summary about James
+and a bit more about him.
+
+25a2311f-ffc5-47fc-97d6-0a4b012fb3b9-0
+00:23:45.440 --> 00:23:47.120
+And I was actually testing this as well.
+
+6fbcbb76-85a4-4751-a5a5-05fad22755be-0
+00:23:47.120 --> 00:23:51.280
+There was things like some people's names
+are Samantha and Daniel.
+
+d690af44-a548-41f9-ba00-aa7f5e965924-0
+00:23:51.360 --> 00:23:54.242
+And it actually, it's smart enough to,
+you know, if I say tell me about Dan,
+
+d690af44-a548-41f9-ba00-aa7f5e965924-1
+00:23:54.242 --> 00:23:57.200
+it actually knows that I'm talking about
+Daniel and actually figures that out.
+
+fbfb3591-c2c7-4dbf-ac1f-ad91962ba306-0
+00:23:58.080 --> 00:24:00.760
+That's quite a powerful engine that we're
+building here.
+
+a33424c3-4267-4c93-8eb0-47dcd1d6acbc-0
+00:24:03.840 --> 00:24:07.360
+Let's see what it's it's come up with a
+summary of James's application.
+
+4f22f88e-59b9-44f7-beb7-e60205393c63-0
+00:24:08.640 --> 00:24:12.480
+Nice and easy to read on the phone,
+gives me some prompts into what I can do.
+
+d74dda65-3505-4f00-bced-cf2146b32714-0
+00:24:12.960 --> 00:24:15.329
+But you know,
+let's get a summary of the other
+
+d74dda65-3505-4f00-bced-cf2146b32714-1
+00:24:15.329 --> 00:24:18.555
+applications as well so that we can have
+a bit of a comparison,
+
+d74dda65-3505-4f00-bced-cf2146b32714-2
+00:24:18.555 --> 00:24:21.480
+have a bit of a think about it,
+think what we want to do.
+
+16fac00d-3335-4534-9988-4cd07a997ebe-0
+00:24:24.760 --> 00:24:28.600
+So here it knows that it's already asked
+about the the job it's talking about.
+
+3032a17e-112d-433a-86b1-d23fd13abef2-0
+00:24:28.600 --> 00:24:31.174
+There's two other applications we've
+asked,
+
+3032a17e-112d-433a-86b1-d23fd13abef2-1
+00:24:31.174 --> 00:24:33.280
+so we should only got the other two.
+
+c6ccdf77-8606-4117-8124-8b12b86231ed-0
+00:24:33.280 --> 00:24:46.640
+Now there we go.
+
+dfa063df-ca31-4c92-b029-e9e36b34dac4-0
+00:24:46.640 --> 00:24:49.440
+We've got the summary for Samantha and
+Daniel as well.
+
+cce65e0b-20ae-40f0-b08b-345a276cd183-0
+00:24:51.720 --> 00:24:56.553
+OK, well, we liked the summary for James,
+so we might move him to a phone interview
+
+cce65e0b-20ae-40f0-b08b-345a276cd183-1
+00:24:56.553 --> 00:24:58.280
+while we're thinking about it.
+
+c7311067-8805-4d10-b5be-02d107b99b3c-0
+00:24:58.400 --> 00:25:01.640
+We want to interview him,
+so we'll move him along for now.
+
+e0136cd1-08bc-49b7-a937-0b9271e67661-0
+00:25:05.000 --> 00:25:09.600
+So this is actually doing the business
+process moving along.
+
+bc41f56c-7fe8-45d4-850d-f22e8e6f25d5-0
+00:25:10.160 --> 00:25:12.200
+So it's able to do that.
+
+c2139b1c-a839-426d-97a4-ed285abf7408-0
+00:25:12.200 --> 00:25:16.587
+We could also move the other two back to
+unsuccessful if we wanted to as part of
+
+c2139b1c-a839-426d-97a4-ed285abf7408-1
+00:25:16.587 --> 00:25:17.400
+this this move.
+
+aba09721-2015-4378-b608-282905ebe28e-0
+00:25:17.400 --> 00:25:23.200
+At the moment we're just not doing that
+because then it runs the test data.
+
+c2981720-57d8-4f3f-a637-08b99b4db395-0
+00:25:23.200 --> 00:25:26.836
+But that can be part of the script if we
+want it to highlight the power of,
+
+c2981720-57d8-4f3f-a637-08b99b4db395-1
+00:25:26.836 --> 00:25:28.320
+you know, doing the bulk moves.
+
+844d0f8d-4eac-4558-9d4f-81b71c7ed743-0
+00:25:33.640 --> 00:25:37.592
+So he's moved to the phone interview
+stage and it knows that it's about an
+
+844d0f8d-4eac-4558-9d4f-81b71c7ed743-1
+00:25:37.592 --> 00:25:38.120
+interview.
+
+2211a282-7c79-4759-be4a-1800be6d312c-0
+00:25:38.120 --> 00:25:41.225
+So it's suggested maybe we want an
+interview back for James for that phone
+
+2211a282-7c79-4759-be4a-1800be6d312c-1
+00:25:41.225 --> 00:25:41.640
+interview.
+
+cfec2789-6ab3-40d3-ba87-fb620348e146-0
+00:25:42.160 --> 00:25:46.453
+So why don't we say, Yep, yes,
+please create me an interview pack for
+
+cfec2789-6ab3-40d3-ba87-fb620348e146-1
+00:25:46.453 --> 00:25:46.760
+that.
+
+df6b1a68-99dd-4774-a60b-94c95ede4f0c-0
+00:25:48.960 --> 00:25:53.321
+So nice short prompts that it's pluses
+guiding us through and suggesting what we
+
+df6b1a68-99dd-4774-a60b-94c95ede4f0c-1
+00:25:53.321 --> 00:25:54.560
+what we should do next.
+
+bc5d7fdf-f6fd-46fb-970e-bf1170636062-0
+00:25:58.320 --> 00:26:02.408
+So this interview pack should bring us
+basically some information about the
+
+bc5d7fdf-f6fd-46fb-970e-bf1170636062-1
+00:26:02.408 --> 00:26:05.098
+candidate,
+give us the questions we should ask in
+
+bc5d7fdf-f6fd-46fb-970e-bf1170636062-2
+00:26:05.098 --> 00:26:09.080
+the interview and potentially some some
+other options that we need to do.
+
+7c44b00c-91fe-4de4-be08-1a708927b28a-0
+00:26:10.680 --> 00:26:15.157
+So you got to summarise that's given us
+key experience for games,
+
+7c44b00c-91fe-4de4-be08-1a708927b28a-1
+00:26:15.157 --> 00:26:19.160
+give us the qualifications,
+suggested interview questions.
+
+a33fbdb5-81e1-4f22-904c-5ed6c782996a-0
+00:26:19.880 --> 00:26:20.560
+And this is Paul.
+
+103a398c-b524-4ffd-8e6d-e36375a6d996-0
+00:26:20.560 --> 00:26:24.360
+Those interview questions have come from
+the cats scenario as well.
+
+6aeac878-020b-4eb8-a0af-a5ed3fe06e1e-0
+00:26:24.920 --> 00:26:26.440
+So it's tying that scenario back.
+
+a7aebd7e-5a7d-48bf-a76f-f4af34db5cc9-0
+00:26:27.560 --> 00:26:31.840
+So all the information you need to
+basically walk into an interview with him
+
+a7aebd7e-5a7d-48bf-a76f-f4af34db5cc9-1
+00:26:31.840 --> 00:26:36.176
+and it's suggested maybe I should email
+This to you for later so we can email
+
+a7aebd7e-5a7d-48bf-a76f-f4af34db5cc9-2
+00:26:36.176 --> 00:26:40.568
+that to ourselves and have it in our
+inbox ready for when we get into work and
+
+a7aebd7e-5a7d-48bf-a76f-f4af34db5cc9-3
+00:26:40.568 --> 00:26:41.679
+have that interview.
+
+bad1abe4-f72d-409a-8ea4-9a6cc5f99df0-0
+00:26:47.730 --> 00:26:51.570
+So this email, as Harry said,
+it knows the context of who you are.
+
+a5b6ed9a-ce18-4c37-a3fa-6f12f512561c-0
+00:26:51.570 --> 00:26:55.368
+So it knows your email address and it's
+sent that off ready to go,
+
+a5b6ed9a-ce18-4c37-a3fa-6f12f512561c-1
+00:26:55.368 --> 00:26:57.410
+and that's the end of that scenario.
+
+da68a5e5-b7a4-45a0-aee0-285234ce965d-0
+00:26:58.730 --> 00:26:59.210
+Excellent.
+
+f71a0604-1181-4b46-85ed-b12dbebfa7be-0
+00:27:05.880 --> 00:27:06.120
+Yeah.
+
+3e607485-4791-4355-a945-4809cb5f4c35-0
+00:27:08.960 --> 00:27:10.360
+Any comments, feedback?
+
+c5d0d809-e2ba-407b-84eb-8d10130d29b7-0
+00:27:10.360 --> 00:27:20.695
+Yeah, Jimmy could we have it not council,
+but not like a residence and more viewer
+
+c5d0d809-e2ba-407b-84eb-8d10130d29b7-1
+00:27:20.695 --> 00:27:23.560
+audience and a council.
+
+bdde7da0-59b2-4cbd-b7af-865897f1e6dc-0
+00:27:24.000 --> 00:27:26.564
+I think I've still need manageable
+resident very well,
+
+bdde7da0-59b2-4cbd-b7af-865897f1e6dc-1
+00:27:26.564 --> 00:27:30.482
+but a council maybe it's just very narrow
+persona and could we have it so you could
+
+bdde7da0-59b2-4cbd-b7af-865897f1e6dc-2
+00:27:30.482 --> 00:27:33.840
+brand it so that customers can see that
+can brand is that as their own?
+
+35ab656c-7e99-4b4d-b526-5def77e99f85-0
+00:27:33.840 --> 00:27:37.280
+Could we have that sort of coming through
+so they can personalise it?
+
+c40f8079-667a-47e4-8895-5b8809f64dd3-0
+00:27:38.240 --> 00:27:42.397
+Yeah,
+I think let's say think about that for 26
+
+c40f8079-667a-47e4-8895-5b8809f64dd3-1
+00:27:42.397 --> 00:27:49.760
+AI think right now I would say we'll have
+to graph for sure and we'll go through it.
+
+4aad8c25-e215-4874-ae44-1fe2957db5d2-0
+00:27:50.960 --> 00:27:51.760
+Let's work through that.
+
+04b45be7-fdcf-4919-8a9f-8a32e3cd5157-0
+00:27:52.280 --> 00:27:53.320
+Makes a lot of sense.
+
+50bb24a5-3e81-42d0-b8a5-b157b754966e-0
+00:27:55.560 --> 00:27:57.294
+It was nice that despite any spelling
+mistakes,
+
+50bb24a5-3e81-42d0-b8a5-b157b754966e-1
+00:27:57.294 --> 00:27:58.920
+that understood what you were doing as
+well.
+
+660412c8-bd30-4a50-89cb-f61532ebd820-0
+00:27:59.640 --> 00:28:02.440
+So that probably should be pointed out
+during the demo.
+
+54e283dd-ddcf-43c8-bb00-f7baab482007-0
+00:28:02.760 --> 00:28:04.040
+And it was context sensitive.
+
+b5ae53b5-b0f4-4350-8e3c-bdb606a80d76-0
+00:28:04.040 --> 00:28:04.960
+And I'll be careful.
+
+7977b87f-30f1-417b-aea4-933b2a57850b-0
+00:28:05.080 --> 00:28:08.160
+I'll be careful not to give feedback for
+the LLF.
+
+9216d6f8-67fc-4fdd-b797-6e17e8205a32-0
+00:28:08.760 --> 00:28:10.040
+We're not testing the LLF.
+
+0d701fef-6fff-4f7b-a90b-c70ceab81974-0
+00:28:10.040 --> 00:28:11.560
+It is LLF that is doing that.
+
+3a6ad805-bf09-4f04-9b66-4a3e7f1ea703-0
+00:28:12.200 --> 00:28:13.600
+So you're right.
+
+dc4b2441-96d3-4f34-acd9-f69a7c383ea5-0
+00:28:14.040 --> 00:28:17.000
+But I can use it to build the space.
+
+3001a588-416b-43c1-875e-f050579aec75-0
+00:28:17.320 --> 00:28:19.494
+Yeah,
+but that Harry has to make spelling
+
+3001a588-416b-43c1-875e-f050579aec75-1
+00:28:19.494 --> 00:28:19.960
+mistakes.
+
+14479ec6-663e-4924-a458-94d73c12b63f-0
+00:28:19.960 --> 00:28:20.400
+OK, Harry.
+
+9d7af052-7134-4e17-80cf-2e4346fbc513-0
+00:28:22.000 --> 00:28:23.760
+Well, you'll be on stage, so won't be me.
+
+48e3dd02-3702-49f3-8485-f958b42c5d4f-0
+00:28:25.400 --> 00:28:28.080
+You like to make spelling mistakes
+putting the prompt in this point.
+
+898f2b73-c999-4e57-9f88-0a55d45ec83d-0
+00:28:28.680 --> 00:28:34.760
+OK, can I just take a moment to reflect?
+
+b73d6b1d-b611-4241-97bd-e5dfcf24c6d9-0
+00:28:34.760 --> 00:28:42.705
+First of all,
+everything works in plus in mobile and in
+
+b73d6b1d-b611-4241-97bd-e5dfcf24c6d9-1
+00:28:42.705 --> 00:28:43.840
+desktop.
+
+e669b398-3bc8-48f6-a26a-ab056d0d69ed-0
+00:28:45.160 --> 00:28:48.960
+And I think this is huge and I'll tell
+you how huge this is.
+
+087f73a8-91b8-4fca-b6b1-63e271666678-0
+00:28:48.960 --> 00:28:53.297
+9 months ago,
+there was no conversation of AI scenario
+
+087f73a8-91b8-4fca-b6b1-63e271666678-1
+00:28:53.297 --> 00:28:54.480
+in the product.
+
+a49ab5d9-69ae-4164-a551-b2af24c6ab03-0
+00:28:54.920 --> 00:28:56.840
+We didn't have any in the product.
+
+39fc375f-935b-4685-8095-5bb9cd360080-0
+00:28:56.840 --> 00:29:00.000
+We didn't even have a scenario that we're
+thinking hard enough.
+
+b861d2f0-29f2-411a-ba69-dd17b9ef3bb7-0
+00:29:00.080 --> 00:29:01.120
+We had ideas.
+
+572f0cfb-704d-4b01-8351-3aee539d4221-0
+00:29:01.800 --> 00:29:03.960
+Nine months ago, there was none.
+
+74c9a8df-35e4-406c-aa46-d15ae7ce3b67-0
+00:29:04.000 --> 00:29:08.104
+There was no conversation on this floor
+in this company about we're building an
+
+74c9a8df-35e4-406c-aa46-d15ae7ce3b67-1
+00:29:08.104 --> 00:29:08.720
+AI scenario.
+
+2bef9e9a-bd9a-48e6-8a96-edd71f7f58e6-0
+00:29:10.000 --> 00:29:13.280
+Five months ago, Plus didn't even exist.
+
+84e7f3a0-53af-4532-bebe-e7086af0a729-0
+00:29:13.920 --> 00:29:17.480
+There was no conversations of anything
+called Plus five months ago.
+
+8998e15c-88d3-4da5-8bf9-6f836f12cbbc-0
+00:29:19.000 --> 00:29:25.106
+And then we said we will finish this and
+we were evolving the idea of plus we
+
+8998e15c-88d3-4da5-8bf9-6f836f12cbbc-1
+00:29:25.106 --> 00:29:29.960
+brought you guys just together and said
+we've got to do this.
+
+f8fdcc87-2169-4fcf-9f03-b45e3210a4bc-0
+00:29:30.360 --> 00:29:39.218
+And we said the drop dead date for us is
+Sprint 2 of 26 A today it is the end of
+
+f8fdcc87-2169-4fcf-9f03-b45e3210a4bc-1
+00:29:39.218 --> 00:29:40.640
+Sprint three.
+
+9fb9d58f-066f-4010-b355-52d1e2520ffd-0
+00:29:41.520 --> 00:29:45.720
+We missed that only by 1 Sprint,
+which is 2 weeks, 10 days.
+
+d4f960d4-e2f0-4b44-b8df-e53253923c59-0
+00:29:47.360 --> 00:29:48.800
+I think this is awesome.
+
+7fba1ab8-e1e1-4998-a5de-d40b2aef65bb-0
+00:29:50.520 --> 00:29:58.671
+It is a beautiful story of transformation,
+of coming together, of focus,
+
+7fba1ab8-e1e1-4998-a5de-d40b2aef65bb-1
+00:29:58.671 --> 00:30:01.240
+of being so persistent.
+
+4cfce1fc-16b5-4813-ab78-ddafbb95a6d7-0
+00:30:01.240 --> 00:30:03.400
+We'd keep talking about greater
+determination.
+
+bd3e0e97-fdba-41df-a970-a7cd74ff84dd-0
+00:30:03.680 --> 00:30:08.600
+There is no better example I can think of
+of what 26 AM this showcase is about.
+
+b64acdeb-9dc1-4e9d-8d80-0c2614695607-0
+00:30:09.680 --> 00:30:11.520
+Whatever happens on that day doesn't
+matter.
+
+a340f23f-1366-4213-abc5-73ab4a7f5b5a-0
+00:30:12.040 --> 00:30:16.400
+But I have lived this evolution with each
+one of you in different facets.
+
+7b811fd2-b52e-4112-b306-f2a2484cc416-0
+00:30:16.400 --> 00:30:21.497
+The design teams getting pushed to the
+wall and doing stand ups daily with me
+
+7b811fd2-b52e-4112-b306-f2a2484cc416-1
+00:30:21.497 --> 00:30:26.006
+and probably, I don't know,
+we've cut down 100 TS by now on that one
+
+7b811fd2-b52e-4112-b306-f2a2484cc416-2
+00:30:26.006 --> 00:30:27.640
+to get to the bits of it.
+
+3350f096-cf84-455a-9a95-ff3dfd6bba94-0
+00:30:27.640 --> 00:30:33.929
+The whole design build team of it
+churning or things and me being so net
+
+3350f096-cf84-455a-9a95-ff3dfd6bba94-1
+00:30:33.929 --> 00:30:34.360
+pick.
+
+07a6b899-73b9-49df-a0e9-11bffc579916-0
+00:30:34.400 --> 00:30:35.080
+I don't like this.
+
+b6ab8434-f073-439a-9ac9-33e4048b1bd9-0
+00:30:35.080 --> 00:30:39.091
+I want this change this change that or
+the plus colours and the marketing team
+
+b6ab8434-f073-439a-9ac9-33e4048b1bd9-1
+00:30:39.091 --> 00:30:42.240
+and then the code and then the evolution
+of the architecture.
+
+4483e033-9611-4fcb-aa45-31e5e7f7be98-0
+00:30:42.520 --> 00:30:44.600
+How can I actually realise this?
+
+44677a1f-b1e2-42d2-b9e8-6df51ada9482-0
+00:30:44.840 --> 00:30:48.003
+Not hard coded,
+but realise this in a way that it is what
+
+44677a1f-b1e2-42d2-b9e8-6df51ada9482-1
+00:30:48.003 --> 00:30:52.040
+we are actually going to deliver in 26
+with all the architecture complex.
+
+ea1ab482-a950-4ec2-b025-e9d5137e747a-0
+00:30:52.040 --> 00:30:57.403
+I can just go on and on and on the
+challenges that we had and,
+
+ea1ab482-a950-4ec2-b025-e9d5137e747a-1
+00:30:57.403 --> 00:31:02.000
+and I think for me it is,
+I get goosebumps right now.
+
+32e5697f-b72c-45f0-9f54-bab66770ad8a-0
+00:31:02.360 --> 00:31:03.160
+It's beautiful.
+
+5dbb2dcc-851b-42c7-923f-08e45f4a324a-0
+00:31:03.160 --> 00:31:05.840
+It's it's so nice to really see it's
+actually happening.
+
+f2094c80-30f6-4bd2-a0ac-64c615cf49d1-0
+00:31:05.840 --> 00:31:06.960
+You guys have done it.
+
+fe485efe-f8ab-420f-806e-b6a242588dcf-0
+00:31:07.480 --> 00:31:09.280
+I gave so much feedback yesterday.
+
+7b9e4c51-8a88-41cb-8df7-65bccb0280e8-0
+00:31:10.280 --> 00:31:12.945
+It was World War,
+it was long and I said it would be nice
+
+7b9e4c51-8a88-41cb-8df7-65bccb0280e8-1
+00:31:12.945 --> 00:31:15.840
+if you can just flip it in the next 24
+hours and make it work.
+
+e271bc3d-aad1-447e-8676-be64067bb6f8-0
+00:31:16.320 --> 00:31:17.760
+Things didn't work yesterday.
+
+3b70e28e-70a6-429f-b956-e05ca7370373-0
+00:31:19.040 --> 00:31:20.000
+You guys made it happen.
+
+cd23d4c4-8dbb-4029-9ae7-5cc5fb653d38-0
+00:31:21.920 --> 00:31:24.280
+You should really be very proud of what
+you do.
+
+9631c447-2c08-41db-a6ce-ab0bce5fffee-0
+00:31:25.720 --> 00:31:27.800
+You guys can actually move mountains.
+
+fedf3389-f845-495a-a738-45fc840fb3db-0
+00:31:27.800 --> 00:31:29.920
+It's amazing what we have achieved.
+
+71146bc0-5ec3-47ed-84a8-e6725f17a446-0
+00:31:30.680 --> 00:31:33.920
+I was just checking this as I came in and
+saw the first one.
+
+4f4bf698-714d-49e2-987b-f9186ae78d30-0
+00:31:34.080 --> 00:31:34.960
+Are we recording?
+
+b297f396-be25-4a7f-b5af-9900ec646e22-0
+00:31:35.160 --> 00:31:38.365
+If we wouldn't be recording this session,
+I would have cursed myself for the whole
+
+b297f396-be25-4a7f-b5af-9900ec646e22-1
+00:31:38.365 --> 00:31:38.520
+day.
+
+aecbb58c-d028-46cd-b81c-ac80e19bec36-0
+00:31:39.280 --> 00:31:40.120
+It's beautiful.
+
+54816a56-f5a4-45a8-8117-6b6d74fa95cf-0
+00:31:40.520 --> 00:31:41.520
+Fantastic.
+
+7c6aceab-7aca-4ee4-a33c-cf51a1d945d5-0
+00:31:41.800 --> 00:31:43.160
+I think we are ready for showcase.
+
+ec97c0c2-cbc3-4d4e-a0f1-43451feeb7f1-0
+00:31:44.200 --> 00:31:44.400
+Yeah.
+
+4a35e077-787e-4956-94cb-3e78b38ee168-0
+00:31:45.280 --> 00:31:46.960
+Rest everything else will come through.
+
+f9204954-3386-4926-ac38-526c6db5913d-0
+00:31:46.960 --> 00:31:50.320
+I know you guys have a long list of I
+want to tweak this, I want to do that.
+
+4a0a4b27-5c79-426e-bdca-72009d26f4e8-0
+00:31:51.080 --> 00:31:54.920
+I'm pretty confident I will not push you
+for any more stand ups.
+
+d2924800-80d5-4887-a1cb-748e895806bf-0
+00:31:55.320 --> 00:31:56.560
+Make sure you don't break it.
+
+6db7a1b2-c879-4217-b67f-15ea4f2aa724-0
+00:31:58.280 --> 00:31:59.640
+Lock that system down.
+
+8e4c2ded-9fdb-4e44-a27d-032d201cdb6d-0
+00:32:01.880 --> 00:32:03.080
+Yeah, exactly, Lisa.
+
+775c8bd7-a22d-44c1-91b7-6ccd32c733f3-0
+00:32:03.080 --> 00:32:04.760
+Nobody gets to touch any code.
+
+8f63b3c4-37b2-49d5-a18f-616f09cfa71d-0
+00:32:06.520 --> 00:32:08.240
+Of course, the only thing is performance.
+
+fbae3ab4-63bc-4842-9ac5-d69bd6fb05ce-0
+00:32:09.320 --> 00:32:11.280
+Yeah,
+we got to do the performance bit of it.
+
+64051078-e374-4e4a-98eb-31d3a8c72dfb-0
+00:32:11.280 --> 00:32:13.920
+We'll get the visual bit of it and we'll
+start getting it.
+
+f7c7ca99-09a3-4c9f-9d34-ffcdf3970ce2-0
+00:32:14.040 --> 00:32:16.560
+We'll start doing the stage crafting then,
+right.
+
+de93eb4d-16bf-4b3f-8ee7-2f9cb92dd87d-0
+00:32:16.560 --> 00:32:17.520
+So it is what it is.
+
+c30813f6-974a-490e-ac93-f1d157429ffd-0
+00:32:17.760 --> 00:32:24.440
+And look genuinely for complex scenarios
+it is going to take time.
+
+d295035c-c16b-4720-be65-a809dc303f40-0
+00:32:25.720 --> 00:32:30.557
+The users have to understand it is no
+more a transaction in a screen and the
+
+d295035c-c16b-4720-be65-a809dc303f40-1
+00:32:30.557 --> 00:32:35.645
+time it takes to hear you talking about
+multiple transactions happening with one
+
+d295035c-c16b-4720-be65-a809dc303f40-2
+00:32:35.645 --> 00:32:35.960
+prom.
+
+6b3214ff-0aab-421e-a631-321689ed043a-0
+00:32:35.960 --> 00:32:39.280
+And that's why that visual on the left
+will tell the story.
+
+67cc3d52-02a9-4723-b8a5-51fece5ab8fe-0
+00:32:39.920 --> 00:32:42.320
+I think it will take time and it should
+take time.
+
+6dbcc763-3dec-43b4-beb3-7ccd5c194ea4-0
+00:32:43.000 --> 00:32:47.200
+If it happens in split second,
+I'll know that it is hard coded.
+
+5853c290-f5dd-4a2c-8fb4-ffad910e9da4-0
+00:32:48.480 --> 00:32:49.680
+It's working software.
+
+dcaf3061-a258-4d79-99bb-94384ae5ebff-0
+00:32:49.680 --> 00:32:52.560
+So the beauty of working software is it
+will take time.
+
+cb680423-bc58-4765-b894-d303b7d814ce-0
+00:32:52.560 --> 00:32:53.480
+So that's not a problem.
+
+fd245de0-0e15-43ea-bb1c-3ab529d2259d-0
+00:32:53.480 --> 00:32:54.280
+We don't have to sweat.
+
+30e8ff3f-5c47-4937-9bf7-d70d625b2fd7-0
+00:32:54.440 --> 00:32:58.760
+We just need to see what is the tolerance
+that we need to adjust to.
+
+3426a0a8-f44d-46c4-9c1f-a78c4789235d-0
+00:32:59.120 --> 00:33:01.440
+But be very careful from now on.
+
+fb56bd5a-4278-4067-8e99-486c6392a90e-0
+00:33:02.120 --> 00:33:03.360
+Very, very careful.
+
+636507fb-605e-43fb-aedc-e474e35e1771-0
+00:33:04.000 --> 00:33:06.835
+You get,
+I mean if we if this is what we have
+
+636507fb-605e-43fb-aedc-e474e35e1771-1
+00:33:06.835 --> 00:33:09.794
+right now,
+I think we can do showcase with this
+
+636507fb-605e-43fb-aedc-e474e35e1771-2
+00:33:09.794 --> 00:33:11.519
+version as it is no problem.
+
+36201433-e428-450d-9510-3987740547e4-0
+00:33:12.840 --> 00:33:13.040
+Yeah.
+
+bd942268-b523-4089-9688-2e331bed3607-0
+00:33:13.040 --> 00:33:14.040
+So we are there.
+
+2b6f8432-3472-4961-b71f-2dad74396b43-0
+00:33:14.520 --> 00:33:17.743
+So from now on,
+it is being very careful of what we are
+
+2b6f8432-3472-4961-b71f-2dad74396b43-1
+00:33:17.743 --> 00:33:21.253
+doing, how we are tweaking,
+be very coordinated, fixing one,
+
+2b6f8432-3472-4961-b71f-2dad74396b43-2
+00:33:21.253 --> 00:33:22.520
+don't break the other.
+
+9621c678-6d4e-48ca-a295-bd665eba1e2f-0
+00:33:22.520 --> 00:33:23.640
+Those are the things we will get.
+
+020b11df-9fe4-4c89-8a05-744f82866c7a-0
+00:33:23.840 --> 00:33:25.520
+But I think you guys know it.
+
+83edc78b-f287-4bc5-837b-4a77b0ab05c8-0
+00:33:26.320 --> 00:33:27.640
+So thank you very much.
+
+ffd1ca06-d44b-447f-bc36-5f66a858b08f-0
+00:33:27.640 --> 00:33:28.440
+Thanks a lot.
+
+b175b4b2-60b4-4606-9d6a-da708aefc86b-0
+00:33:29.120 --> 00:33:30.000
+You made my day.
+
+60717797-36bf-4182-ace0-c6e0680a6204-0
+00:33:31.320 --> 00:33:31.520
+Yeah.
+
+f14bafe9-4b8f-41be-99da-456d550f8f50-0
+00:33:31.720 --> 00:33:35.930
+So now if somebody asks me what's my
+confidence on showcase,
+
+f14bafe9-4b8f-41be-99da-456d550f8f50-1
+00:33:35.930 --> 00:33:39.520
+I can say 10 on 10,
+just move from 2 on 9:50 on 10.
+
+e6a73f4a-2e6f-46bb-843f-b212711bcf32-0
+00:33:40.360 --> 00:33:40.800
+Thank you.
+
+6bfaf278-6735-438e-bdf0-d50074e098fe-0
+00:33:47.400 --> 00:33:49.320
+Sorry, Pete,
+I didn't see you on the screen.
+
+28b221d2-e1df-4ae9-a0d6-399822fa07bf-0
+00:33:49.320 --> 00:33:50.880
+Any any feedback from you Pete?
+
+f5b7c48d-0fc7-4b82-9469-7c5808d4f11a-0
+00:33:51.080 --> 00:33:52.960
+Oh, I just great speech, Shannon.
+
+42c1e01a-aad8-42db-ba2a-8e6a364009cb-0
+00:33:52.960 --> 00:33:55.822
+That's an awesome wrap up of a massive
+effort obviously and well done to
+
+42c1e01a-aad8-42db-ba2a-8e6a364009cb-1
+00:33:55.822 --> 00:33:56.920
+everyone for the hard yards.
+
+41652857-b4db-4ae1-9452-9b30581472aa-0
+00:33:56.920 --> 00:33:57.520
+Appreciate it.
+
+0e394d46-9382-43c7-9203-6c35c5c5ebe5-0
+00:33:57.920 --> 00:33:59.120
+We look forward to selling it.
+
+83605666-8f0a-4963-9f9f-8daac130c81a-0
+00:34:01.240 --> 00:34:02.840
+That's it, off you go.
+
+1635282e-2e4a-47fa-84be-e7a39ba8fbfa-0
+00:34:06.600 --> 00:34:06.800
+Good.
+
+c82e82ff-919e-4592-89dc-f0e063e2c726-0
+00:34:06.960 --> 00:34:07.320
+Thank you.
+
+e2482936-9bcb-4707-88fb-cab951d746b8-0
+00:34:08.840 --> 00:34:11.000
+I can go with everything, Chando said.
+
+1caeeb20-8bdb-48a7-8417-1d6db22c4886-0
+00:34:11.560 --> 00:34:13.240
+Gotta ******* work on October.
+
+06cd1b0d-b307-469c-abab-d95212b5bdf2-0
+00:34:13.360 --> 00:34:16.840
+The whatever It's it's wonderful,
+really good stuff.
+
+e4e8cc1a-4a76-4af9-bd5f-5fd387f85b83-0
+00:34:16.840 --> 00:34:22.413
+We didn't even we didn't even have a road
+map that had I know we had ideas,
+
+e4e8cc1a-4a76-4af9-bd5f-5fd387f85b83-1
+00:34:22.413 --> 00:34:24.760
+but no road map that had our IE.
+
+3049264a-2d5c-4ac1-b8d4-f910396d5d1c-0
+00:34:25.040 --> 00:34:29.080
+But five months into five months,
+it's ******* amazing.
+
+865a3e45-afad-4f3c-b641-8661d5c360be-0
+00:34:29.240 --> 00:34:30.400
+It's really good stuff.
+
+b2d62463-2e17-4db2-bdc4-7723e615cbd7-0
+00:34:30.960 --> 00:34:32.960
+Let's go show the world and go show it
+off.
+
+9a4d79e3-54fe-4ab7-ad66-1051d72c86c4-0
+00:34:33.040 --> 00:34:35.920
+It's like showing off your whatever your
+new toy or whatever.
+
+bc40bfe7-be76-4bc6-b906-81d866c3d87a-0
+00:34:36.040 --> 00:34:37.240
+Don't go what you deserve.
+
+8653f3a8-76f2-444f-9c9e-bce38d0a3f88-0
+00:34:37.600 --> 00:34:38.000
+Awesome.
+
+f76d3dba-db6a-4eb3-abab-095849c96d0f-0
+00:34:39.120 --> 00:34:39.320
+Good.
+
+1c09a69d-c297-40e4-83e8-ac07d07565ca-0
+00:34:39.840 --> 00:34:40.240
+Thank you.
+
+9eb83293-7b5e-410a-9845-dd6cc7091e98-0
+00:34:40.440 --> 00:34:40.880
+Excellent.
+
+d2d7f8ee-d319-4533-8a23-a7902991274c-0
+00:34:41.160 --> 00:34:41.600
+Thanks.
+
+b3682728-fa38-43f7-9b99-a5b87427034a-0
+00:34:41.840 --> 00:34:42.160
+Thanks.
