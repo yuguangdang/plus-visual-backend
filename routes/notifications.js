@@ -30,11 +30,12 @@ router.post('/chat-notification', async (req, res) => {
     // New payload structure: array of conversation messages
     const messages = req.body;
     
-    // Clean messages: remove conversationId, messageId, lastModified
+    // Clean messages: remove conversationId, messageId, lastModified, but keep guide field
     const cleanMessages = messages.map(msg => ({
       content: msg.content,
       type: msg.type,
-      userId: msg.userId
+      userId: msg.userId,
+      guide: msg.guide // Preserve guide field for proper agent filtering
     }));
     
     // Get the latest user message as the primary message
@@ -47,11 +48,13 @@ router.post('/chat-notification', async (req, res) => {
     
     const message = latestUserMessage.content;
     const userId = latestUserMessage.userId;
+    const guide = latestUserMessage.guide; // Extract guide field
     const timestamp = new Date().toISOString();
-    
+
     console.log('Received chat notification:', {
       message,
       userId,
+      guide,
       timestamp,
       totalMessages: cleanMessages.length
     });
@@ -60,7 +63,7 @@ router.post('/chat-notification', async (req, res) => {
     if (isUserAllowed(userId)) {
       await sendSSEMessage({
         type: 'chat_started',
-        data: { message, userId, timestamp }
+        data: { message, userId, guide, timestamp }
       });
     } else {
       console.log(`SSE not sent for chat_started - userId ${userId} not in allowed list`);
@@ -87,7 +90,8 @@ router.post('/chat-notification', async (req, res) => {
             intention,
             agents,
             message,
-            userId
+            userId,
+            guide
           }
         });
       } else {
@@ -95,7 +99,7 @@ router.post('/chat-notification', async (req, res) => {
       }
     }, delayMs); // 4-second thinking phase delay
     
-    res.json({ success: true, intention, agents, message, userId });
+    res.json({ success: true, intention, agents, message, userId, guide });
   } catch (error) {
     console.error('Error processing chat notification:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -135,18 +139,18 @@ router.post('/chat-complete', async (req, res) => {
     // Log raw request body to debug
     console.log('Raw request body:', JSON.stringify(req.body));
 
-    // Extract userId from request body
-    const { userId } = req.body;
+    // Extract userId and guide from request body
+    const { userId, guide } = req.body;
     const timestamp = new Date().toISOString();
 
-    console.log('Received chat completion notification:', { userId, timestamp });
+    console.log('Received chat completion notification:', { userId, guide, timestamp });
 
     // Notify dashboard to stop animation (if user is allowed)
     // Use retry logic for this critical message
     if (isUserAllowed(userId)) {
       const message = {
         type: 'chat_completed',
-        data: { userId, timestamp }
+        data: { userId, guide, timestamp }
       };
 
       // Send with retries to ensure delivery
