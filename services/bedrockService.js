@@ -75,9 +75,12 @@ async function getIntention(message, conversationMessages = []) {
     // Track AWS processing time
     const startTime = Date.now();
 
-    // Use the Converse API with Claude Sonnet-4 inference profile for structured output
+    // Use the Converse API with Claude Haiku 4.5 AU inference profile for structured output
+    const modelId = 'au.anthropic.claude-haiku-4-5-20251001-v1:0';
+    console.log(`Using Bedrock model: ${modelId} in region: ${process.env.AWS_REGION || 'ap-southeast-2'}`);
+
     const params = {
-      modelId: 'apac.anthropic.claude-sonnet-4-20250514-v1:0',
+      modelId: modelId,
       messages: [
         {
           role: 'user',
@@ -120,7 +123,7 @@ async function getIntention(message, conversationMessages = []) {
     return DEMO_INTENTIONS.GENERAL_INQUIRY;
     
   } catch (error) {
-    console.error('Error getting intention from Claude Sonnet-4 via Bedrock:', error);
+    console.error('Error getting intention from Claude Haiku 4.5 via Bedrock:', error);
     return DEMO_INTENTIONS.GENERAL_INQUIRY;
   }
 }
