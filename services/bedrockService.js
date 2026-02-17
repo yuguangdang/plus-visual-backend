@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-const { DEMO_INTENTIONS } = require('../config/intentions');
+const { DEMO_INTENTIONS, INTENTION_DESCRIPTIONS } = require('../config/intentions');
 
 // Configure AWS Bedrock with correct profile for Claude Sonnet-4 access
 const bedrock = new AWS.BedrockRuntime({
@@ -64,13 +64,26 @@ async function getIntention(message, conversationMessages = []) {
       toolChoice: { tool: { name: "classify_intention" } }  // Force tool use for guaranteed structured output
     };
     
+    // Build intention list with descriptions
+    const intentionList = intentionValues.map(intention =>
+      `- ${intention}: ${INTENTION_DESCRIPTIONS[intention] || 'No description'}`
+    ).join('\n');
+
     const userPrompt = `${contextString}Based on the conversation context, classify this user message into the most appropriate intention category:
 
-    User message: "${message}"
+User message: "${message}"
 
-    Choose from these intentions: ${intentionValues.join(', ')}
+Available intentions:
+${intentionList}
 
-    Consider the full context and select the single most relevant intention.`;
+IMPORTANT RULES:
+1. Use conversation context to select context-specific intentions over generic ones
+2. If the conversation is about waste disposal/booking, prefer "bulky_waste_booking" for confirmations
+3. If the conversation is about hardship application, prefer "document_submission" when user provides details
+4. If the conversation is about infrastructure/pothole reporting, prefer "request_with_attachment" for confirmations
+5. Only use "request_confirmation" when there is no specific service context
+
+Select the single most appropriate intention.`;
 
     // Track AWS processing time
     const startTime = Date.now();

@@ -1,0 +1,318 @@
+{
+  "timestamp": "2026-02-17T02:56:02.557Z",
+  "summary": {
+    "total": 14,
+    "passed": 10,
+    "failed": 4,
+    "passRate": "71.4%",
+    "avgLatencyMs": 972
+  },
+  "results": [
+    {
+      "id": "A.1",
+      "scenario": "Property Inquiry",
+      "prompt": "I am looking to buy to 35 Westwood Dr, can you tell me what it is like to live in River City",
+      "contextLength": 0,
+      "expected": {
+        "intention": "property_inquiry",
+        "agents": [
+          "knowledge",
+          "spatial",
+          "webagent"
+        ]
+      },
+      "actual": {
+        "intention": "property_inquiry",
+        "agents": [
+          "knowledge",
+          "spatial",
+          "webagent"
+        ]
+      },
+      "latencyMs": 1625,
+      "success": true
+    },
+    {
+      "id": "A.2",
+      "scenario": "Property Inquiry",
+      "prompt": "Yes Flood risk and Council Tax",
+      "contextLength": 2,
+      "expected": {
+        "intention": "property_details",
+        "agents": [
+          "knowledge",
+          "spatial",
+          "webagent"
+        ]
+      },
+      "actual": {
+        "intention": "property_details",
+        "agents": [
+          "knowledge",
+          "spatial",
+          "webagent"
+        ]
+      },
+      "latencyMs": 970,
+      "success": true
+    },
+    {
+      "id": "B.2",
+      "scenario": "Waste Disposal",
+      "prompt": "how can I dispose of this chair",
+      "contextLength": 0,
+      "expected": {
+        "intention": "waste_disposal_inquiry",
+        "agents": [
+          "knowledge",
+          "ecm"
+        ]
+      },
+      "actual": {
+        "intention": "waste_disposal_inquiry",
+        "agents": [
+          "knowledge",
+          "ecm"
+        ]
+      },
+      "latencyMs": 833,
+      "success": true
+    },
+    {
+      "id": "B.3",
+      "scenario": "Bulky Waste Booking",
+      "prompt": "Yes, its just the chair and can we book for 3 March 26",
+      "contextLength": 2,
+      "expected": {
+        "intention": "bulky_waste_booking",
+        "agents": [
+          "request",
+          "bincollections"
+        ]
+      },
+      "actual": {
+        "intention": "bulky_waste_booking",
+        "agents": [
+          "request",
+          "bincollections"
+        ]
+      },
+      "latencyMs": 912,
+      "success": true
+    },
+    {
+      "id": "B.4",
+      "scenario": "Bulky Waste Booking",
+      "prompt": "Yes",
+      "contextLength": 4,
+      "expected": {
+        "intention": "bulky_waste_booking",
+        "agents": [
+          "request",
+          "bincollections"
+        ]
+      },
+      "actual": {
+        "intention": "request_confirmation",
+        "agents": [
+          "request"
+        ]
+      },
+      "latencyMs": 857,
+      "success": false
+    },
+    {
+      "id": "C.1",
+      "scenario": "Hardship Inquiry",
+      "prompt": "Tell me about temporary hardship allowance",
+      "contextLength": 0,
+      "expected": {
+        "intention": "hardship_inquiry",
+        "agents": [
+          "knowledge",
+          "webagent"
+        ]
+      },
+      "actual": {
+        "intention": "hardship_inquiry",
+        "agents": [
+          "knowledge",
+          "webagent"
+        ]
+      },
+      "latencyMs": 975,
+      "success": true
+    },
+    {
+      "id": "C.2",
+      "scenario": "Hardship Application",
+      "prompt": "Yes apply",
+      "contextLength": 2,
+      "expected": {
+        "intention": "hardship_application",
+        "agents": [
+          "request",
+          "taxtransactions"
+        ]
+      },
+      "actual": {
+        "intention": "hardship_application",
+        "agents": [
+          "request",
+          "taxtransactions"
+        ]
+      },
+      "latencyMs": 925,
+      "success": true
+    },
+    {
+      "id": "C.3",
+      "scenario": "Document Submission",
+      "prompt": "I am a casual worker and have hurt my leg and can only work half shifts",
+      "contextLength": 4,
+      "expected": {
+        "intention": "document_submission",
+        "agents": [
+          "ecm",
+          "request"
+        ]
+      },
+      "actual": {
+        "intention": "hardship_application",
+        "agents": [
+          "request",
+          "taxtransactions"
+        ]
+      },
+      "latencyMs": 802,
+      "success": false
+    },
+    {
+      "id": "C.4",
+      "scenario": "Request Confirmation",
+      "prompt": "Yes confirmed",
+      "contextLength": 4,
+      "expected": {
+        "intention": "request_confirmation",
+        "agents": [
+          "request"
+        ]
+      },
+      "actual": {
+        "intention": "request_confirmation",
+        "agents": [
+          "request"
+        ]
+      },
+      "latencyMs": 989,
+      "success": true
+    },
+    {
+      "id": "C.6",
+      "scenario": "Council Tax View",
+      "prompt": "Show me my council tax balance",
+      "contextLength": 0,
+      "expected": {
+        "intention": "council_tax_view",
+        "agents": [
+          "taxtransactions"
+        ]
+      },
+      "actual": {
+        "intention": "council_tax_view",
+        "agents": [
+          "taxtransactions"
+        ]
+      },
+      "latencyMs": 963,
+      "success": true
+    },
+    {
+      "id": "C.7",
+      "scenario": "Payment Redirect",
+      "prompt": "Pay now",
+      "contextLength": 2,
+      "expected": {
+        "intention": "payment_redirect",
+        "agents": [
+          "taxtransactions"
+        ]
+      },
+      "actual": {
+        "intention": "payment_redirect",
+        "agents": [
+          "taxtransactions"
+        ]
+      },
+      "latencyMs": 860,
+      "success": true
+    },
+    {
+      "id": "D.1",
+      "scenario": "Infrastructure Report",
+      "prompt": "fix this pothole at 92 Well St it will damage bike tyres",
+      "contextLength": 0,
+      "expected": {
+        "intention": "infrastructure_report",
+        "agents": [
+          "knowledge",
+          "ecm",
+          "request"
+        ]
+      },
+      "actual": {
+        "intention": "infrastructure_report",
+        "agents": [
+          "knowledge",
+          "ecm",
+          "request"
+        ]
+      },
+      "latencyMs": 963,
+      "success": true
+    },
+    {
+      "id": "D.2",
+      "scenario": "Request Details",
+      "prompt": "It is hazardous for bikes and would seriously damage tyres",
+      "contextLength": 2,
+      "expected": {
+        "intention": "request_details",
+        "agents": [
+          "request"
+        ]
+      },
+      "actual": {
+        "intention": "infrastructure_report",
+        "agents": [
+          "knowledge",
+          "ecm",
+          "request"
+        ]
+      },
+      "latencyMs": 906,
+      "success": false
+    },
+    {
+      "id": "D.3",
+      "scenario": "Request with Attachment",
+      "prompt": "Yes",
+      "contextLength": 4,
+      "expected": {
+        "intention": "request_with_attachment",
+        "agents": [
+          "request",
+          "ecm"
+        ]
+      },
+      "actual": {
+        "intention": "request_confirmation",
+        "agents": [
+          "request"
+        ]
+      },
+      "latencyMs": 1022,
+      "success": false
+    }
+  ]
+}
