@@ -2,11 +2,17 @@
 // Student Guide and Resident Guide
 
 const DEMO_INTENTIONS = {
-  // Student Guide Intentions - Aligned with Presenter Script
-  STUDENT_ONBOARDING_APPOINTMENT: 'student_onboarding_appointment',
+  // Student Guide Intentions - Aligned with UK Showcase Prompts(STU).csv
+  // Scenario A - Onboarding Tasks
   STUDENT_ONBOARDING_TASKS: 'student_onboarding_tasks',
+  STUDENT_ONBOARDING_CONFIRM: 'student_onboarding_confirm',
+  // Scenario B - Assessment Extension
   STUDENT_ASSESSMENT_EXTENSION: 'student_assessment_extension',
+  STUDENT_EXTENSION_REASON: 'student_extension_reason',
+  STUDENT_EXTENSION_DURATION: 'student_extension_duration',
+  // Scenario C - Exam Time Planning
   STUDENT_EXAM_PLANNER: 'student_exam_planner',
+  STUDENT_STUDY_PREFERENCES: 'student_study_preferences',
 
   // Resident Guide Intentions - Aligned with Presenter Spreadsheet
   // Scenario A - Property Inquiry
@@ -36,11 +42,18 @@ const DEMO_INTENTIONS = {
 
 // Semantic descriptions for each intention to guide LLM classification
 const INTENTION_DESCRIPTIONS = {
-  // Student Guide
-  'student_onboarding_appointment': 'Student wants to book or manage an onboarding appointment',
-  'student_onboarding_tasks': 'Student asking about onboarding tasks or checklist items',
-  'student_assessment_extension': 'Student requesting an assessment deadline extension',
-  'student_exam_planner': 'Student asking about exam schedules or study planning',
+  // Student Guide - Scenario A (Onboarding)
+  'student_onboarding_tasks': 'Student asking to create onboarding tasks, setup their course, or get help with initial enrollment. First message about onboarding.',
+  'student_onboarding_confirm': 'Student confirming, modifying, or accepting onboarding tasks that were already presented. Use when student says tasks "look good" or adds/removes specific tasks.',
+
+  // Student Guide - Scenario B (Assessment Extension)
+  'student_assessment_extension': 'Student requesting help with an assignment deadline, saying they cannot finish on time, or asking about extensions. Initial request for extension.',
+  'student_extension_reason': 'Student providing the reason why they need an extension (e.g., "I was busy with work", illness, personal reasons). Use after extension request.',
+  'student_extension_duration': 'Student specifying how long they want the extension to be (e.g., "5 working days", "one week"). Use when student provides duration.',
+
+  // Student Guide - Scenario C (Exam Planning)
+  'student_exam_planner': 'Student asking to create a revision plan, study plan, or help preparing for upcoming exams. Initial request for exam planning.',
+  'student_study_preferences': 'Student providing study preferences such as subjects to focus on, study times, session duration, or schedule preferences (e.g., "Monday to Friday, 9-11am").',
 
   // Resident Guide - Scenario A (Property)
   'property_inquiry': 'User asking about a property, neighborhood, or what it is like to live somewhere',
@@ -69,11 +82,17 @@ const INTENTION_DESCRIPTIONS = {
 
 // Agent mapping for each intention
 const INTENTION_TO_AGENT = {
-  // Student Guide - SM Agent and KB Agent (4 specific use cases)
-  [DEMO_INTENTIONS.STUDENT_ONBOARDING_APPOINTMENT]: ['StudentManagement'],
-  [DEMO_INTENTIONS.STUDENT_ONBOARDING_TASKS]: ['StudentManagement'],
-  [DEMO_INTENTIONS.STUDENT_ASSESSMENT_EXTENSION]: ['StudentManagement', 'Knowledge'],
-  [DEMO_INTENTIONS.STUDENT_EXAM_PLANNER]: ['StudentManagement', 'Knowledge'],
+  // Student Guide - 6 Agents: StudentManagement, LMS, Knowledge, Tasks, StudyPlanner, CourseLoop
+  // Scenario A - Onboarding Tasks
+  [DEMO_INTENTIONS.STUDENT_ONBOARDING_TASKS]: ['StudentManagement', 'LMS', 'Tasks'],
+  [DEMO_INTENTIONS.STUDENT_ONBOARDING_CONFIRM]: ['Tasks'],
+  // Scenario B - Assessment Extension
+  [DEMO_INTENTIONS.STUDENT_ASSESSMENT_EXTENSION]: ['StudentManagement', 'LMS', 'Knowledge', 'Tasks'],
+  [DEMO_INTENTIONS.STUDENT_EXTENSION_REASON]: ['StudentManagement', 'LMS', 'Knowledge', 'Tasks'],
+  [DEMO_INTENTIONS.STUDENT_EXTENSION_DURATION]: ['StudentManagement', 'LMS', 'Knowledge', 'Tasks'],
+  // Scenario C - Exam Time Planning
+  [DEMO_INTENTIONS.STUDENT_EXAM_PLANNER]: ['StudentManagement', 'LMS', 'CourseLoop', 'StudyPlanner'],
+  [DEMO_INTENTIONS.STUDENT_STUDY_PREFERENCES]: ['CourseLoop', 'StudyPlanner'],
 
   // Resident Guide - Aligned with Presenter Spreadsheet
   // Scenario A - Property Inquiry (Guest)
