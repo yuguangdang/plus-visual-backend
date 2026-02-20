@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-const { DEMO_INTENTIONS, INTENTION_KEYWORDS } = require('../config/intentions');
+const { DEMO_INTENTIONS, INTENTION_DESCRIPTIONS } = require('../config/intentions');
 
 // Configure AWS Bedrock
 const bedrock = new AWS.BedrockRuntime({
@@ -7,27 +7,10 @@ const bedrock = new AWS.BedrockRuntime({
   ...(process.env.AWS_PROFILE && { profile: process.env.AWS_PROFILE })
 });
 
-// Helper function to match intention based on keywords
-function matchIntentionByKeywords(message) {
-  if (!message || typeof message !== 'string') {
-    return null;
-  }
+// We ALWAYS use LLM for intention extraction for better accuracy and context understanding
+// No keyword matching is used (aligned with UK showcase pattern)
 
-  const lowerMessage = message.toLowerCase();
-
-  for (const [intention, keywords] of Object.entries(INTENTION_KEYWORDS)) {
-    for (const keyword of keywords) {
-      if (lowerMessage.includes(keyword.toLowerCase())) {
-        console.log(`Matched intention ${intention} by keyword: ${keyword}`);
-        return intention;
-      }
-    }
-  }
-
-  return null;
-}
-
-async function getIntention(message) {
+async function getIntention(message, conversationMessages = []) {
   try {
     // Handle undefined or invalid messages
     if (!message || typeof message !== 'string') {
@@ -35,22 +18,67 @@ async function getIntention(message) {
       return DEMO_INTENTIONS.GENERAL_INQUIRY;
     }
 
-    // First try keyword matching for demo scenarios
-    const keywordMatch = matchIntentionByKeywords(message);
-    if (keywordMatch) {
-      return keywordMatch;
+    // Build conversation context from the last 5 messages
+    let contextString = '';
+    if (conversationMessages && conversationMessages.length > 0) {
+      contextString = 'Conversation history:\n';
+      conversationMessages.slice(-5).forEach(msg => {
+        const role = msg.type === 'user' ? 'user' : 'assistant';
+        contextString += `${role}: ${msg.content}\n`;
+      });
+      contextString += '\n';
     }
 
-    // If no keyword match, use AI to classify
+    // Create enum values for the intention field
     const intentionValues = Object.values(DEMO_INTENTIONS);
-    const intentionsList = intentionValues.join(', ');
 
-    const userPrompt = `Classify this user message into ONE of these specific intentions:
-    ${intentionsList}
+    // Define the schema for structured output using tool use
+    const intentionSchema = {
+      type: "object",
+      properties: {
+        intention: {
+          type: "string",
+          enum: intentionValues,
+          description: "The classified intention from the predefined list"
+        },
+        confidence: {
+          type: "number",
+          description: "Confidence score between 0 and 1",
+          minimum: 0,
+          maximum: 1
+        }
+      },
+      required: ["intention"]
+    };
 
-    User message: "${message}"
+    // Tool configuration to force structured output
+    const toolConfig = {
+      tools: [{
+        toolSpec: {
+          name: "classify_intention",
+          description: "Classify the user message into one of the predefined intentions",
+          inputSchema: { json: intentionSchema }
+        }
+      }],
+      toolChoice: { tool: { name: "classify_intention" } }
+    };
 
-    Return ONLY the intention name from the list above, nothing else.`;
+    // Build intention list with descriptions
+    const intentionList = intentionValues.map(intention =>
+      `- ${intention}: ${INTENTION_DESCRIPTIONS[intention] || 'No description'}`
+    ).join('\n');
+
+    const userPrompt = `${contextString}Based on the conversation context, classify this user message into the most appropriate intention category:
+
+User message: "${message}"
+
+Available intentions:
+${intentionList}
+
+Select the single most appropriate intention.`;
+
+    // Track AWS processing time
+    const startTime = Date.now();
 
     // Use Claude Haiku 4.5 AU inference profile with Converse API
     const modelId = 'au.anthropic.claude-haiku-4-5-20251001-v1:0';
@@ -64,34 +92,38 @@ async function getIntention(message) {
           content: [{ text: userPrompt }]
         }
       ],
+      toolConfig: toolConfig,
       inferenceConfig: {
-        temperature: 0.1,
-        maxTokens: 50
+        temperature: 0.0,  // Greedy decoding for deterministic output
+        maxTokens: 200
       }
     };
 
-    console.log('Calling AWS Bedrock Claude Haiku 4.5...');
     const response = await bedrock.converse(params).promise();
 
-    // Extract text from Converse API response
+    // Log AWS processing time
+    const awsTime = Date.now() - startTime;
+    console.log(`AWS Bedrock processing time: ${awsTime}ms`);
+
+    // Extract the tool use response from Converse API
     const content = response.output?.message?.content;
-    const textBlock = content?.find(block => block.text);
-    const aiResponse = textBlock?.text?.trim().toLowerCase() || '';
+    const toolUseBlock = content?.find(block => block.toolUse);
 
-    console.log('AI Response:', aiResponse);
+    if (toolUseBlock && toolUseBlock.toolUse) {
+      const structuredData = toolUseBlock.toolUse.input;
 
-    // Validate the response is in our enum
-    const validIntention = intentionValues.find(
-      intention => aiResponse.includes(intention)
-    );
+      const extractedIntention = structuredData.intention;
+      const confidence = structuredData.confidence || 1.0;
 
-    if (validIntention) {
-      console.log('Extracted intention:', validIntention);
-      return validIntention;
+      // Validate the intention is in our enum
+      if (intentionValues.includes(extractedIntention)) {
+        console.log(`Intention extracted: ${extractedIntention} (confidence: ${confidence.toFixed(2)})`);
+        return extractedIntention;
+      }
     }
 
-    // Default fallback
-    console.log('No valid intention found, using general_inquiry');
+    // Fallback if tool use fails
+    console.log('Tool use failed or no valid response, using general_inquiry');
     return DEMO_INTENTIONS.GENERAL_INQUIRY;
 
   } catch (error) {
