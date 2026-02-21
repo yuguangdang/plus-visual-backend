@@ -1,84 +1,36 @@
 # ANZ Showcase Test Prompts
 
+**Based on:** ANZ Showcase Prompts.pdf (dated 21/02/2026)
 **Local Backend URL:** `http://localhost:8080`
 **Deployed Backend URL:** `https://pygmtkd2jp.ap-southeast-2.awsapprunner.com`
 
 ---
 
-## Scenario 1 - Leave Management Flow (PDF Scenarios 1-5)
+## Scenario 1 - Leave Management Flow (PDF Rows 1-5)
 
-### 1.1 - Critical Insight Card (View Leave Approvals)
-**Prompt:** "I need to review the pending leave requests"
+### Row 1 - Critical Tasks Insight Card
+**Prompt:** `Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1`
 **Expected:** `leave_view_approvals` -> Agents: `[mytask, leave]`
+**PDF Agent:** My Tasks Agent and App Builder + Leave and Leave Management
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "I need to review the pending leave requests", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "I need to review the pending leave requests", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Show me the leave requests that need approval"
-- "What leave approvals are pending?"
-- "Click on the critical insight for leave"
 
 ---
 
-### 1.2 - Bulk Approve
-**Prompt:** "Please approve them all"
-**Expected:** `leave_bulk_approve` -> Agents: `[mytask]`
-
-```bash
-# Local
-curl -X POST http://localhost:8080/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Please approve them all", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Please approve them all", "type": "user", "userId": "test-user"}]'
-```
-
-**Alternative Prompts:**
-- "Approve all the pending leave requests"
-- "Bulk approve everything"
-- "Yes, approve them all"
-
----
-
-### 1.3 - Check Conflicts
-**Prompt:** "Actually, first check the team calendar for any conflicts"
-**Expected:** `leave_check_conflicts` -> Agents: `[leave, knowledge]`
-
-```bash
-# Local
-curl -X POST http://localhost:8080/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Actually, first check the team calendar for any conflicts", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Actually, first check the team calendar for any conflicts", "type": "user", "userId": "test-user"}]'
-```
-
-**Alternative Prompts:**
-- "Are there any scheduling conflicts with these leave requests?"
-- "Check for calendar clashes"
-- "Will anyone overlap during their leave?"
-
----
-
-### 1.4 - Check Policy
-**Prompt:** "Check the leave requests against our leave policy"
+### Row 2 - Check Leave Policy
+**Prompt:** `Check the leave requests against our leave policy`
 **Expected:** `leave_check_policy` -> Agents: `[leave, knowledge]`
+**PDF Agent:** Leave and Leave Management + Knowledge and LG,SM, Employee
 
 ```bash
 # Local
@@ -92,87 +44,90 @@ curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notific
   -d '[{"content": "Check the leave requests against our leave policy", "type": "user", "userId": "test-user"}]'
 ```
 
-**Alternative Prompts:**
-- "Are these requests compliant with company policy?"
-- "Validate against our leave policy"
-- "Any policy breaches in these requests?"
+---
+
+### Row 3 - Bulk Approve
+**Prompt:** `Approve them all`
+**Expected:** `leave_bulk_approve` -> Agents: `[mytask]`
+**PDF Agent:** My Tasks Agent and App Builder
+
+```bash
+# Local
+curl -X POST http://localhost:8080/api/chat-notification \
+  -H "Content-Type: application/json" \
+  -d '[{"content": "Approve them all", "type": "user", "userId": "test-user"}]'
+
+# Deployed
+curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
+  -H "Content-Type: application/json" \
+  -d '[{"content": "Approve them all", "type": "user", "userId": "test-user"}]'
+```
 
 ---
 
-### 1.5 - Team Leave Balances (Chart)
-**Prompt:** "Show me the team leave balances as a bar chart"
+### Row 4 - Team Leave Balances Chart
+**Prompt:** `Show me my teams leave balances in a bar chart`
 **Expected:** `leave_team_balances` -> Agents: `[analytics]`
+**PDF Agent:** Analytics and Corporate Performance
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me the team leave balances as a bar chart", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my teams leave balances in a bar chart", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me the team leave balances as a bar chart", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my teams leave balances in a bar chart", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Visualize the team leave balances"
-- "Create a chart showing everyone's leave balance"
-- "Show leave balance visualization"
 
 ---
 
-### 1.6 - Draft Email About Leave
-**Prompt:** "Generate an email to Jacqui asking her to take the remaining leave"
+### Row 5 - Draft Email About Leave
+**Prompt:** `Generate an email to Jacqui asking her to take some leave`
 **Expected:** `leave_draft_email` -> Agents: `[email]`
+**PDF Agent:** Email and Email System
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Generate an email to Jacqui asking her to take the remaining leave", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Generate an email to Jacqui asking her to take some leave", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Generate an email to Jacqui asking her to take the remaining leave", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Generate an email to Jacqui asking her to take some leave", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Draft an email reminding her to use her leave"
-- "Write an email about leave balance"
-- "Send an email asking him to take his remaining annual leave"
 
 ---
 
-## Scenario 2 - Recruitment Flow (PDF Scenarios 7-12)
+## Scenario 2 - Recruitment Flow (PDF Rows 7-12)
 
-### 2.1 - View Applications
-**Prompt:** "Show me the applications on my open requisition"
+### Row 7 - Open Requisitions Insight Card
+**Prompt:** `Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1`
 **Expected:** `recruitment_view_applications` -> Agents: `[recruitment]`
+**PDF Agent:** Recruitment and HR & Payroll
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me the applications on my open requisition", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me the applications on my open requisition", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Who has applied for the open position?"
-- "View job applications"
-- "Show recruitment data"
 
 ---
 
-### 2.2 - Application Summary
-**Prompt:** "Show me Sarah"
+### Row 8 - Show Candidate
+**Prompt:** `Show me Sarah`
 **Expected:** `recruitment_application_summary` -> Agents: `[recruitment]`
+**PDF Agent:** Recruitment and HR & Payroll
 
 ```bash
 # Local
@@ -186,85 +141,69 @@ curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notific
   -d '[{"content": "Show me Sarah", "type": "user", "userId": "test-user"}]'
 ```
 
-**Alternative Prompts:**
-- "Tell me about Sarah's application"
-- "Show candidate details for Sarah"
-- "Give me an overview of the candidate"
-
 ---
 
-### 2.3 - Compare Candidates
-**Prompt:** "Compare Sarah to the other candidates"
+### Row 9 - Compare Candidates
+**Prompt:** `Compare sarah to the other candidates`
 **Expected:** `recruitment_compare_candidates` -> Agents: `[recruitment]`
+**PDF Agent:** Recruitment and HR & Payroll
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Compare Sarah to the other candidates", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Compare sarah to the other candidates", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Compare Sarah to the other candidates", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Compare sarah to the other candidates", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "How does Sarah compare to the others?"
-- "Compare all candidates"
-- "Show me a comparison of applicants"
 
 ---
 
-### 2.4 - Move Stage / Mark Unsuitable
-**Prompt:** "Move Sarah to the next stage and mark the others as unsuitable"
+### Row 10 - Move Stage / Mark Unsuitable
+**Prompt:** `Move Sarah to the next stage and the others to unsuitable`
 **Expected:** `recruitment_move_stage` -> Agents: `[recruitment, mytask]`
+**PDF Agent:** Recruitment and HR & Payroll + My Task and App Builder
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Move Sarah to the next stage and mark the others as unsuitable", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Move Sarah to the next stage and the others to unsuitable", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Move Sarah to the next stage and mark the others as unsuitable", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Move Sarah to the next stage and the others to unsuitable", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Advance Sarah to interview stage"
-- "Shortlist Sarah and reject the rest"
-- "Move candidate to next stage"
 
 ---
 
-### 2.5 - Interview Questions
-**Prompt:** "Generate interview questions for Sarah"
+### Row 11 - Generate Interview Questions
+**Prompt:** `Generate some interview questions for Sarah`
 **Expected:** `recruitment_interview_questions` -> Agents: `[recruitment]`
+**PDF Agent:** Recruitment and HR & Payroll
 
 ```bash
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Generate interview questions for Sarah", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Generate some interview questions for Sarah", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Generate interview questions for Sarah", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Generate some interview questions for Sarah", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Create an interview pack for Sarah"
-- "What questions should I ask in the interview?"
-- "Prepare interview preparation materials"
 
 ---
 
-### 2.6 - Email Interview Pack
-**Prompt:** "Email that to me"
+### Row 12 - Email Interview Pack
+**Prompt:** `Email that to me`
 **Expected:** `general_email` -> Agents: `[email]`
+**PDF Agent:** Email agent and system
 
 ```bash
 # Local
@@ -278,257 +217,116 @@ curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notific
   -d '[{"content": "Email that to me", "type": "user", "userId": "test-user"}]'
 ```
 
-**Alternative Prompts:**
-- "Send that via email"
-- "Email this to me"
-- "Send me an email with that"
-
 ---
 
-## Scenario 3 - Work Request Flow (Additional)
+## Additional Test Scenarios (Non-PDF Agents)
 
-### 3.1 - Create Work Request
-**Prompt:** "There's a hole in the wall in meeting room 3, can you report it?"
-**Expected:** `work_request_create` -> Agents: `[workrequest]`
+These scenarios test agents not covered in the PDF demo but available in ANZ Showcase.
 
+### Work Request
+
+**Create Work Request:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "There is a hole in the wall in meeting room 3, can you report it?", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "There is a hole in the wall in meeting room 3, can you report it?", "type": "user", "userId": "test-user"}]'
 ```
+Expected: `work_request_create` -> Agents: `[workrequest]`
 
-**Alternative Prompts:**
-- "Create a maintenance request for the broken AC"
-- "Something is broken in my office"
-- "Report an issue with the carpet"
-
----
-
-### 3.2 - Work Request Status
-**Prompt:** "What's the status of my work request?"
-**Expected:** `work_request_status` -> Agents: `[workrequest]`
-
+**Work Request Status:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "What is the status of my work request?", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "What is the status of my work request?", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Check status of my maintenance request"
-- "How is my request progressing?"
-- "Any update on the repair?"
+Expected: `work_request_status` -> Agents: `[workrequest]`
 
 ---
 
-## Scenario 4 - Requisition Flow (Additional)
+### Requisition
 
-### 4.1 - Order a Desk
-**Prompt:** "I need to order a new standing desk"
-**Expected:** `requisition_desk` -> Agents: `[requisition, workrequest]`
-
+**Order a Desk:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "I need to order a new standing desk", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "I need to order a new standing desk", "type": "user", "userId": "test-user"}]'
 ```
+Expected: `requisition_desk` -> Agents: `[requisition, workrequest]`
 
-**Alternative Prompts:**
-- "Requisition a desk replacement"
-- "Order new desk furniture"
-- "I need a new desk"
-
----
-
-### 4.2 - Search Product Catalog
-**Prompt:** "Search the product catalog for ergonomic chairs"
-**Expected:** `requisition_search_product` -> Agents: `[requisition]`
-
+**Search Product Catalog:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "Search the product catalog for ergonomic chairs", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Search the product catalog for ergonomic chairs", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Browse products in the catalogue"
-- "Find products matching office supplies"
-- "Search for monitors in requisition"
+Expected: `requisition_search_product` -> Agents: `[requisition]`
 
 ---
 
-## Scenario 5 - Finance Flow (Additional)
+### Finance
 
-### 5.1 - View Budget
-**Prompt:** "Show me the current budget status for my department"
-**Expected:** `finance_view_budget` -> Agents: `[finance]`
-
+**View Budget:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "Show me the current budget status for my department", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Show me the current budget status for my department", "type": "user", "userId": "test-user"}]'
 ```
+Expected: `finance_view_budget` -> Agents: `[finance]`
 
-**Alternative Prompts:**
-- "What's our budget overview?"
-- "Show budget information"
-- "How much budget do we have left?"
-
----
-
-### 5.2 - Check Expenses
-**Prompt:** "Show me our expenses for this quarter"
-**Expected:** `finance_check_expenses` -> Agents: `[finance]`
-
+**Analyze Costs:**
 ```bash
-# Local
-curl -X POST http://localhost:8080/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Show me our expenses for this quarter", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Show me our expenses for this quarter", "type": "user", "userId": "test-user"}]'
-```
-
-**Alternative Prompts:**
-- "Generate an expense report"
-- "What have we spent this month?"
-- "Check our spending"
-
----
-
-### 5.3 - Analyze Costs
-**Prompt:** "Analyze our cost trends over the last 6 months"
-**Expected:** `finance_analyze_costs` -> Agents: `[finance, analytics]`
-
-```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "Analyze our cost trends over the last 6 months", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Analyze our cost trends over the last 6 months", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Show financial trends"
-- "Cost analysis for Q1"
-- "What are our spending patterns?"
+Expected: `finance_analyze_costs` -> Agents: `[finance, analytics]`
 
 ---
 
-## Scenario 6 - Analytics Flow (Additional)
+### Analytics
 
-### 6.1 - Create Visualization
-**Prompt:** "Create a chart showing monthly expenses"
-**Expected:** `analytics_visualization` -> Agents: `[analytics]`
-
+**Create Visualization:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "Create a chart showing monthly expenses", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Create a chart showing monthly expenses", "type": "user", "userId": "test-user"}]'
 ```
+Expected: `analytics_visualization` -> Agents: `[analytics]`
 
-**Alternative Prompts:**
-- "Visualize the data"
-- "Show me a graph"
-- "Create a data model visualization"
-
----
-
-### 6.2 - Export Raw Data
-**Prompt:** "Export the raw data for this report"
-**Expected:** `analytics_raw_data` -> Agents: `[analytics]`
-
+**Export Raw Data:**
 ```bash
-# Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
   -d '[{"content": "Export the raw data for this report", "type": "user", "userId": "test-user"}]'
-
-# Deployed
-curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
-  -H "Content-Type: application/json" \
-  -d '[{"content": "Export the raw data for this report", "type": "user", "userId": "test-user"}]'
 ```
-
-**Alternative Prompts:**
-- "Download the data"
-- "Get me the raw data"
-- "Export to CSV"
+Expected: `analytics_raw_data` -> Agents: `[analytics]`
 
 ---
 
-## Quick Reference - Intention to Agent Mapping
+## Quick Reference - PDF Prompts and Agent Mapping
 
-| Intention | Agents |
-|-----------|--------|
-| `leave_view_approvals` | mytask, leave |
-| `leave_bulk_approve` | mytask |
-| `leave_check_conflicts` | leave, knowledge |
-| `leave_check_policy` | leave, knowledge |
-| `leave_team_balances` | analytics |
-| `leave_draft_email` | email |
-| `recruitment_view_positions` | recruitment |
-| `recruitment_view_applications` | recruitment |
-| `recruitment_application_summary` | recruitment |
-| `recruitment_compare_candidates` | recruitment |
-| `recruitment_move_stage` | recruitment, mytask |
-| `recruitment_interview_questions` | recruitment |
-| `general_email` | email |
-| `work_request_create` | workrequest |
-| `work_request_follow` | workrequest |
-| `work_request_status` | workrequest |
-| `work_request_search` | workrequest |
-| `requisition_create` | requisition |
-| `requisition_search_product` | requisition |
-| `requisition_add_item` | requisition |
-| `requisition_desk` | requisition, workrequest |
-| `analytics_team_leave` | analytics |
-| `analytics_visualization` | analytics |
-| `analytics_raw_data` | analytics |
-| `finance_view_budget` | finance |
-| `finance_check_expenses` | finance |
-| `finance_analyze_costs` | finance, analytics |
-| `general_inquiry` | orchestrator |
+| Row | Prompt | Intention | Agents |
+|-----|--------|-----------|--------|
+| 1 | Show me my critical tasks. Insight userId: CCARTER... | `leave_view_approvals` | mytask, leave |
+| 2 | Check the leave requests against our leave policy | `leave_check_policy` | leave, knowledge |
+| 3 | Approve them all | `leave_bulk_approve` | mytask |
+| 4 | Show me my teams leave balances in a bar chart | `leave_team_balances` | analytics |
+| 5 | Generate an email to Jacqui asking her to take some leave | `leave_draft_email` | email |
+| 7 | Show me my open requisitions for my applications. Insight userId: CCARTER... | `recruitment_view_applications` | recruitment |
+| 8 | Show me Sarah | `recruitment_application_summary` | recruitment |
+| 9 | Compare sarah to the other candidates | `recruitment_compare_candidates` | recruitment |
+| 10 | Move Sarah to the next stage and the others to unsuitable | `recruitment_move_stage` | recruitment, mytask |
+| 11 | Generate some interview questions for Sarah | `recruitment_interview_questions` | recruitment |
+| 12 | Email that to me | `general_email` | email |
+
+---
+
+## Running Automated Tests
+
+```bash
+# Test against local backend
+node tests/test-anz-intentions.js
+
+# Test against deployed backend
+node tests/test-anz-intentions.js --deployed
+```
