@@ -9,7 +9,7 @@
 ## Scenario 1 - Leave Management Flow (PDF Rows 1-5)
 
 ### Row 1 - Critical Tasks Insight Card
-**Prompt:** `Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1`
+**Prompt:** `Show me my critical tasks`
 **Expected:** `leave_view_approvals` -> Agents: `[mytask, leave]`
 **PDF Agent:** My Tasks Agent and App Builder + Leave and Leave Management
 
@@ -17,12 +17,12 @@
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my critical tasks", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my critical tasks", "type": "user", "userId": "test-user"}]'
 ```
 
 ---
@@ -106,7 +106,7 @@ curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notific
 ## Scenario 2 - Recruitment Flow (PDF Rows 7-12)
 
 ### Row 7 - Open Requisitions Insight Card
-**Prompt:** `Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1`
+**Prompt:** `Show me my open requisitions for my applications`
 **Expected:** `recruitment_view_applications` -> Agents: `[recruitment]`
 **PDF Agent:** Recruitment and HR & Payroll
 
@@ -114,12 +114,12 @@ curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notific
 # Local
 curl -X POST http://localhost:8080/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my open requisitions for my applications", "type": "user", "userId": "test-user"}]'
 
 # Deployed
 curl -X POST https://pygmtkd2jp.ap-southeast-2.awsapprunner.com/api/chat-notification \
   -H "Content-Type: application/json" \
-  -d '[{"content": "Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1", "type": "user", "userId": "test-user"}]'
+  -d '[{"content": "Show me my open requisitions for my applications", "type": "user", "userId": "test-user"}]'
 ```
 
 ---
@@ -307,12 +307,12 @@ Expected: `analytics_raw_data` -> Agents: `[analytics]`
 
 | Row | Prompt | Intention | Agents |
 |-----|--------|-----------|--------|
-| 1 | Show me my critical tasks. Insight userId: CCARTER... | `leave_view_approvals` | mytask, leave |
+| 1 | Show me my critical tasks | `leave_view_approvals` | mytask, leave |
 | 2 | Check the leave requests against our leave policy | `leave_check_policy` | leave, knowledge |
 | 3 | Approve them all | `leave_bulk_approve` | mytask |
 | 4 | Show me my teams leave balances in a bar chart | `leave_team_balances` | analytics |
 | 5 | Generate an email to Jacqui asking her to take some leave | `leave_draft_email` | email |
-| 7 | Show me my open requisitions for my applications. Insight userId: CCARTER... | `recruitment_view_applications` | recruitment |
+| 7 | Show me my open requisitions for my applications | `recruitment_view_applications` | recruitment |
 | 8 | Show me Sarah | `recruitment_application_summary` | recruitment |
 | 9 | Compare sarah to the other candidates | `recruitment_compare_candidates` | recruitment |
 | 10 | Move Sarah to the next stage and the others to unsuitable | `recruitment_move_stage` | recruitment, mytask |

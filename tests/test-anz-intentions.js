@@ -18,7 +18,7 @@ const ANZ_TEST_CASES = [
   // ============================================
   {
     id: 'PDF-1',
-    prompt: 'Show me my critical tasks. Insight userId: CCARTER insightId: CRITICALTASKSDEMO identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1',
+    prompt: 'Show me my critical tasks',
     expectedIntention: 'leave_view_approvals',
     expectedAgents: ['mytask', 'leave'],
     category: 'PDF - Leave Management'
@@ -58,7 +58,7 @@ const ANZ_TEST_CASES = [
   // ============================================
   {
     id: 'PDF-7',
-    prompt: 'Show me my open requisitions for my applications. Insight userId: CCARTER insightId: OPENREQUISITIONSFORMYAPPLICATIONS identifierType: U identifierValue: CCARTER enablementInstanceNumber: 1',
+    prompt: 'Show me my open requisitions for my applications',
     expectedIntention: 'recruitment_view_applications',
     expectedAgents: ['recruitment'],
     category: 'PDF - Recruitment'
