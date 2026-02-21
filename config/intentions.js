@@ -50,7 +50,7 @@ const DEMO_INTENTIONS = {
 // Semantic descriptions for each intention to guide LLM classification
 const INTENTION_DESCRIPTIONS = {
   // Leave Management
-  'leave_view_approvals': 'User clicking critical insight card for leave, viewing pending leave requests, or checking leave that needs approval',
+  'leave_view_approvals': 'User viewing critical tasks with insight card (CRITICALTASKSDEMO), showing pending leave requests, or checking leave that needs approval. Includes messages with "Show me my critical tasks" and insight metadata.',
   'leave_bulk_approve': 'User wanting to approve all pending leave requests at once, bulk approval',
   'leave_check_conflicts': 'User checking for scheduling conflicts or team calendar availability',
   'leave_check_policy': 'User asking to check leave requests against company leave policy',
@@ -59,7 +59,7 @@ const INTENTION_DESCRIPTIONS = {
 
   // Recruitment
   'recruitment_view_positions': 'User viewing open positions or job vacancies',
-  'recruitment_view_applications': 'User clicking critical tasks for recruitment, viewing applications on requisition',
+  'recruitment_view_applications': 'User viewing open requisitions for applications, viewing candidates who applied, or clicking recruitment insight card (OPENREQUISITIONSFORMYAPPLICATIONS). Includes messages with "Show me my open requisitions for my applications" - this is about RECRUITMENT candidates, not purchase requisitions.',
   'recruitment_application_summary': 'User asking to show details about a specific candidate like Sarah',
   'recruitment_compare_candidates': 'User asking to compare candidates to each other',
   'recruitment_move_stage': 'User moving candidates to next stage, marking unsuitable, workflow actions',

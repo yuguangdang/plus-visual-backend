@@ -88,3 +88,6 @@ Thumbs.db
 
 # AWS
 .aws/
+
+# Test result files
+*-test-results-*.json
